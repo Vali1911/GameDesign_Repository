@@ -7,8 +7,10 @@ public class PlayerMovement : MonoBehaviour
     
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    //private float input;
     
     public float speed;
+    public Animator animator;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,5 +32,17 @@ public class PlayerMovement : MonoBehaviour
             sr.flipX = false;    // nach rechts
         else if (Move < 0)
             sr.flipX = true;     // nach links
+    }
+
+    private void HandleMovement()
+    {
+        if (Move != 0)
+            {
+            animator.SetBool("IsWalking", true);
+            }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
     }
 }

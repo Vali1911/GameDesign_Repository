@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b765cd14bff631e439f80d4c04681b8f
+guid: f8fe06ec4985633488e55617e32d4037
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4642827692805758189
-    second: charakter_Laufenrechtspose_008_0
+      213: 5676733409119485996
+    second: charakter_Laufenrechtspose_007_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: charakter_Laufenrechtspose_008_0
+      name: charakter_Laufenrechtspose_007_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 15
-        width: 135
-        height: 241
+        x: 80
+        y: 16
+        width: 107
+        height: 234
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31367f8efcc519fb0800000000000000
-      internalID: -4642827692805758189
+      spriteID: c20c82f75fec7ce40800000000000000
+      internalID: 5676733409119485996
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      charakter_Laufenrechtspose_008_0: -4642827692805758189
+      charakter_Laufenrechtspose_007_0: 5676733409119485996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
