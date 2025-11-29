@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
             sr.flipX = false;    // nach rechts
         else if (Move < 0)
             sr.flipX = true;     // nach links
+        HandleMovement();
     }
 
     private void HandleMovement()
