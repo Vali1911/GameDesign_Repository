@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FolderClick : MonoBehaviour
 {
-    public PlayerInteraction interactionScript;
+    public PlayerInteraction interactionScript; // Referenz zu PlayerInteraction
     private bool taken = false;
 
     public void OnFolderClicked()

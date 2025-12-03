@@ -22,12 +22,13 @@ public class PlayerInteraction : MonoBehaviour
 
     private void HandleDrawerInteraction()
     {
+        // Wenn man im Objekt steht UND F drückt
         if (playerInside && Input.GetKeyDown(KeyCode.F))
         {
             drawerOpen = !drawerOpen;
-            drawerImage.SetActive(drawerOpen);
+            drawerImage.SetActive(drawerOpen); // Object wird eingeblendet
 
-            // Wenn Schublade geschlossen UND Mappe wurde genommen
+            // Wenn Schublade geschlossen UND Mappe genommen wurde
             if (!drawerOpen && folderTaken)
             {
                 icon.SetActive(false);            // Icon ausblenden
@@ -40,6 +41,7 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
+    // Player im Object
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -54,6 +56,7 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
+    // Player nicht im Object
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
