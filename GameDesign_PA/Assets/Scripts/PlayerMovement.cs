@@ -1,29 +1,40 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Test
+    // Movement
     private float Move;
-    
     private Rigidbody2D rb;
-    private SpriteRenderer sr;
-    //private float input;
-    
     public float speed;
+
+    // Animation
+    private SpriteRenderer sr;
     public Animator animator;
 
+    // Interaktion / Freeze
+    private bool isFrozen = false;
+    public Sprite lookUpSprite;
+    private Sprite defaultSprite;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
+        defaultSprite = sr.sprite; // Normales Sprite speichern
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Bewegung
+        // Wenn Spieler eingefroren → keine Bewegung zulassen
+        if (isFrozen)
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.SetBool("IsWalking", false);
+            return;
+        }
+
+        // Movement
         Move = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(Move * speed, rb.linearVelocity.y);
 
@@ -32,18 +43,28 @@ public class PlayerMovement : MonoBehaviour
             sr.flipX = false;    // nach rechts
         else if (Move < 0)
             sr.flipX = true;     // nach links
+
         HandleMovement();
     }
 
     private void HandleMovement()
     {
-        if (Move != 0)
-            {
-            animator.SetBool("IsWalking", true);
-            }
-        else
+        animator.SetBool("IsWalking", Move != 0);
+    }
+
+    // Spieler einfrieren / freigeben
+    public void FreezePlayer(bool freeze)
+    {
+        isFrozen = freeze;
+        if (!freeze)
         {
-            animator.SetBool("IsWalking", false);
+            sr.sprite = defaultSprite; // Zurück zum normalen Sprite
         }
+    }
+
+    // Spieler dreht sich nach oben / Richtung Objekt
+    public void TurnPlayerAround()
+    {
+        sr.sprite = lookUpSprite;
     }
 }
