@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             // Back-Sprite anzeigen
             sr.sprite = backSprite;
 
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
 
             return;
         }

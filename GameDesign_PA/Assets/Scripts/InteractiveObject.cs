@@ -54,4 +54,10 @@ public class InteractiveObject : MonoBehaviour
                 player.isInteracting = false;
         }
     }
+    
+    // Wird vom Wecker-Script aufgerufen, um das Icon zu verstecken
+    public void HideIcon()
+    {
+        gameObject.SetActive(false);
+    }
 }
