@@ -11,28 +11,42 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sr;
     public Animator animator;
 
-    // Interaktion / Freeze
-    private bool isFrozen = false;
-    public Sprite lookUpSprite;
-    private Sprite defaultSprite;
+    // Sprites
+    public Sprite normalSprite;
+    public Sprite backSprite;
+
+    // Interaktion
+    public bool isInteracting = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
 
-        defaultSprite = sr.sprite; // Normales Sprite speichern
     }
 
     void Update()
     {
-        // Wenn Spieler eingefroren → keine Bewegung zulassen
-        if (isFrozen)
+        // Während Interaktion
+        if (isInteracting)
         {
-            rb.linearVelocity = Vector2.zero;
-            animator.SetBool("IsWalking", false);
+            //Animator stoppen (Damit Backsprite nicht überschrieben wird)
+            animator.enabled = false;
+            // Back-Sprite anzeigen
+            sr.sprite = backSprite;
+
+            rb.velocity = Vector2.zero;
+
             return;
         }
+        else
+        {
+            // Animator wieder aktivieren
+            animator.enabled = true;
+        }
+
+            // Normales Sprite anzeigen
+            sr.sprite = normalSprite;
 
         // Movement
         Move = Input.GetAxis("Horizontal");
@@ -50,21 +64,5 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovement()
     {
         animator.SetBool("IsWalking", Move != 0);
-    }
-
-    // Spieler einfrieren / freigeben
-    public void FreezePlayer(bool freeze)
-    {
-        isFrozen = freeze;
-        if (!freeze)
-        {
-            sr.sprite = defaultSprite; // Zurück zum normalen Sprite
-        }
-    }
-
-    // Spieler dreht sich nach oben / Richtung Objekt
-    public void TurnPlayerAround()
-    {
-        sr.sprite = lookUpSprite;
     }
 }

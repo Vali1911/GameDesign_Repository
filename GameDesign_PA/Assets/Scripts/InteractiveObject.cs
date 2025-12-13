@@ -4,78 +4,54 @@ using UnityEngine.Events;
 public class InteractiveObject : MonoBehaviour
 {
     private bool playerInside = false;
-    private PlayerMovement player; // Referenz zum PlayerMovement-Script
+    private PlayerMovement player;
 
-    public GameObject linkedObject;        // Objekt, das angezeigt/aktiviert werden soll
-    public SpriteRenderer backViewSprite;  // SpriteRenderer für BackView
-    public Sprite backSprite;              // Sprite, das angezeigt werden soll
+    public GameObject linkedObject; // Objekt, das angezeigt/aktiviert werden soll
     public UnityEvent OnInteraction;
 
     void Update()
     {
+        // Player im Object und F gedrückt?
         if (playerInside && Input.GetKeyDown(KeyCode.F))
         {
-            StartInteraction();
-        }
+            player.isInteracting = !player.isInteracting;
 
-        if (playerInside && Input.GetKeyDown(KeyCode.Escape))
-        {
-            EndInteraction();
+            ToggleInteraction();
         }
     }
 
-    private void StartInteraction()
+    // Object an/aus
+    private void ToggleInteraction()
     {
-        // Player Bewegung deaktivieren
-        if (player != null)
-            player.enabled = false;
-
-        // BackView Sprite anzeigen
-        if (backViewSprite != null && backSprite != null)
+        if (linkedObject != null)
         {
-            backViewSprite.sprite = backSprite;
-            backViewSprite.gameObject.SetActive(true);
+            bool isActive = linkedObject.activeSelf;
+            linkedObject.SetActive(!isActive);
         }
 
-        // Optional: Event auslösen
         OnInteraction?.Invoke();
-
-        // linkedObject aktivieren
-        if (linkedObject != null)
-            linkedObject.SetActive(true);
     }
 
-    private void EndInteraction()
-    {
-        // Player Bewegung wieder aktivieren
-        if (player != null)
-            player.enabled = true;
-
-        // BackView Sprite ausblenden
-        if (backViewSprite != null)
-            backViewSprite.gameObject.SetActive(false);
-
-        // linkedObject deaktivieren
-        if (linkedObject != null)
-            linkedObject.SetActive(false);
-
-        playerInside = false;
-    }
-
+    // Player im Object
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             playerInside = true;
-            player = collision.GetComponent<PlayerMovement>(); // PlayerMovement speichern
+            player = collision.GetComponent<PlayerMovement>();
         }
     }
 
+    // Player nicht im Object
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            EndInteraction(); // Interaktion beenden, wenn Spieler rausgeht
+            playerInside = false;
+
+            // Sicherheit: Interaction beenden beim Verlassen
+            if (player != null)
+                player.isInteracting = false;
         }
     }
 }
