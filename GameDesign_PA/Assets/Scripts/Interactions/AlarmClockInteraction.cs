@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class AlarmClockInteraction : MonoBehaviour
 {
-    public GameObject buttonSprite;       // Knopf auf Wecker
+    public GameObject Wecker;       // Knopf auf Wecker
     public InteractiveObject iconObject;  // Referenz zum Icon-Prefab
 
     private bool isInteracting = false;
 
     void Start()
     {
-        if (buttonSprite != null)
-            buttonSprite.SetActive(true); // Knopf immer sichtbar
+        if (Wecker != null)
+            Wecker.SetActive(true); // Knopf immer sichtbar
     }
 
     public void StartInteraction()
@@ -35,7 +35,7 @@ public class AlarmClockInteraction : MonoBehaviour
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D hit = Physics2D.OverlapPoint(mousePos);
 
-            if (hit != null && hit.gameObject == buttonSprite)
+            if (hit != null && hit.gameObject == Wecker)
             {
                 Debug.Log("Wecker-Knopf gedrückt!");
                 EndInteraction(); // Interaktion beenden
