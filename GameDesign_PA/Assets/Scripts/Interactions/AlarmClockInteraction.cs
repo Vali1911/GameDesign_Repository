@@ -2,43 +2,54 @@ using UnityEngine;
 
 public class AlarmClockInteraction : MonoBehaviour
 {
-    public GameObject Wecker;       // Knopf auf Wecker
+    public GameObject AlarmClockPanel; // Panel das eingeblendet wird
+    public GameObject Wecker;       // Objekt zum drücken
     public InteractiveObject iconObject;  // Referenz zum Icon-Prefab
+    public PlayerMovement player;
 
     private bool isInteracting = false;
-
-    void Start()
-    {
-        if (Wecker != null)
-            Wecker.SetActive(true); // Knopf immer sichtbar
-    }
 
     public void StartInteraction()
     {
         isInteracting = true;
+        player.isInteracting = true;
+        AlarmClockPanel.SetActive(true);
     }
 
-    public void EndInteraction()
+    public void EndInteraction(bool success)
     {
         isInteracting = false;
+        player.isInteracting = false;
 
-        // Icon verschwindet nach Interaktion
-        if (iconObject != null)
+        AlarmClockPanel.SetActive(false);
+
+        if (success && iconObject != null)
+        {
             iconObject.HideIcon();
+        }
     }
 
     void Update()
     {
-        if (isInteracting && Input.GetMouseButtonDown(0))
+        if (!isInteracting) return;
+
+        // Fenster mit F schließen
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            // Prüfen, ob der Knopf geklickt wird
+            EndInteraction(false); // Interaktion nicht erledigt
+            return;
+        }
+
+        // Knopf klicken
+        if (Input.GetMouseButtonDown(0))
+        {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D hit = Physics2D.OverlapPoint(mousePos);
 
             if (hit != null && hit.gameObject == Wecker)
             {
                 Debug.Log("Wecker-Knopf gedrückt!");
-                EndInteraction(); // Interaktion beenden
+                EndInteraction(true); // erledigt
             }
         }
     }

@@ -14,8 +14,6 @@ public class InteractiveObject : MonoBehaviour
         // Player im Object und F gedrückt?
         if (playerInside && Input.GetKeyDown(KeyCode.F))
         {
-            player.isInteracting = !player.isInteracting;
-
             ToggleInteraction();
         }
     }
@@ -23,11 +21,13 @@ public class InteractiveObject : MonoBehaviour
     // Object an/aus
     private void ToggleInteraction()
     {
+        /*
         if (linkedObject != null)
         {
             bool isActive = linkedObject.activeSelf;
             linkedObject.SetActive(!isActive);
         }
+        */
 
         OnInteraction?.Invoke();
     }
