@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: ddf60b9acc3efe843bfd6e3cd84e7546
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3483292340575758139
+    second: "B\xFCro_Chef_001_0"
+  - first:
+      213: -8028933678471073308
+    second: "B\xFCro_Chef_001_1"
+  - first:
+      213: -4639337835578315178
+    second: "B\xFCro_Chef_001_2"
+  - first:
+      213: -4752222075290591525
+    second: "B\xFCro_Chef_001_3"
+  - first:
+      213: -5732156716433502641
+    second: "B\xFCro_Chef_001_4"
+  - first:
+      213: 7215766708896725823
+    second: "B\xFCro_Chef_001_5"
+  - first:
+      213: 3172038885853829095
+    second: "B\xFCro_Chef_001_6"
+  - first:
+      213: 6054938720628992970
+    second: "B\xFCro_Chef_001_7"
+  - first:
+      213: 2057053265023248917
+    second: "B\xFCro_Chef_001_8"
+  - first:
+      213: -6146521749509659246
+    second: "B\xFCro_Chef_001_9"
+  - first:
+      213: -2789175383979688389
+    second: "B\xFCro_Chef_001_10"
+  - first:
+      213: -1871288766483741290
+    second: "B\xFCro_Chef_001_11"
+  - first:
+      213: 8488699269935686744
+    second: "B\xFCro_Chef_001_12"
+  - first:
+      213: 3393862271975235344
+    second: "B\xFCro_Chef_001_13"
+  - first:
+      213: 70117736709415235
+    second: "B\xFCro_Chef_001_14"
+  - first:
+      213: 7131723449001073034
+    second: "B\xFCro_Chef_001_15"
+  - first:
+      213: -5485975482814709239
+    second: "B\xFCro_Chef_001_16"
+  - first:
+      213: 2176512807830139752
+    second: "B\xFCro_Chef_001_17"
+  - first:
+      213: 6808677510656841694
+    second: "B\xFCro_Chef_001_18"
+  - first:
+      213: -4313702592425386931
+    second: "B\xFCro_Chef_001_19"
+  - first:
+      213: 1978427642005176284
+    second: "B\xFCro_Chef_001_20"
+  - first:
+      213: -5560667354165399054
+    second: "B\xFCro_Chef_001_21"
+  - first:
+      213: -6938252070080263407
+    second: "B\xFCro_Chef_001_22"
+  - first:
+      213: 2145865969306534960
+    second: "B\xFCro_Chef_001_23"
+  - first:
+      213: -2391485292455758753
+    second: "B\xFCro_Chef_001_24"
+  - first:
+      213: -3589788780488449180
+    second: "B\xFCro_Chef_001_25"
+  - first:
+      213: 1740915049386994845
+    second: "B\xFCro_Chef_001_26"
+  - first:
+      213: -6636526262598767516
+    second: "B\xFCro_Chef_001_27"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_0"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 132
+        width: 3053
+        height: 1990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8942f421cd8afc0800000000000000
+      internalID: -3483292340575758139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_1"
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1788
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1bf89cb5f739090800000000000000
+      internalID: -8028933678471073308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_2"
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e235d91d2cd9fb0800000000000000
+      internalID: -4639337835578315178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_3"
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1748
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bded88c6337bc0eb0800000000000000
+      internalID: -4752222075290591525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_4"
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1739
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e8c1036d94370b0800000000000000
+      internalID: -5732156716433502641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_5"
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1758
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bf0e9479d832460800000000000000
+      internalID: 7215766708896725823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_6"
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1737
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e71b0d7f88550c20800000000000000
+      internalID: 3172038885853829095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_7"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1708
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb69db9fa6770450800000000000000
+      internalID: 6054938720628992970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_8"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1688
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aa4c9bb0f1c8c10800000000000000
+      internalID: 2057053265023248917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_9"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1668
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295a344d80b23baa0800000000000000
+      internalID: -6146521749509659246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_10"
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1708
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e70a514cbda49d0800000000000000
+      internalID: -2789175383979688389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_11"
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1688
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695ce8908c8d706e0800000000000000
+      internalID: -1871288766483741290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_12"
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1668
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85462adc20bedc570800000000000000
+      internalID: 8488699269935686744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_13"
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1717
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f1fa141cb691f20800000000000000
+      internalID: 3393862271975235344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_14"
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1678
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341e405c5bb19f000800000000000000
+      internalID: 70117736709415235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_15"
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1658
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89580ef0b8f8f260800000000000000
+      internalID: 7131723449001073034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_16"
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1697
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902c3544d56edd3b0800000000000000
+      internalID: -5485975482814709239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_17"
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1639
+        width: 13
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863bdc7fdd6843e10800000000000000
+      internalID: 2176512807830139752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_18"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1628
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed754ec3f184d7e50800000000000000
+      internalID: 6808677510656841694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_19"
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1618
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c9dcfd856a224c0800000000000000
+      internalID: -4313702592425386931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_20"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1608
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf388f4579c47b10800000000000000
+      internalID: 1978427642005176284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_21"
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1598
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f13cd8c08a84d2b0800000000000000
+      internalID: -5560667354165399054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_22"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1588
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b4fb0b08066bf90800000000000000
+      internalID: -6938252070080263407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_23"
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1578
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0348d14dab5a7cd10800000000000000
+      internalID: 2145865969306534960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_24"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1568
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f547a911cccbfced0800000000000000
+      internalID: -2391485292455758753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_25"
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1558
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463ad48af128e2ec0800000000000000
+      internalID: -3589788780488449180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_26"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1548
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ce7de7309f82810800000000000000
+      internalID: 1740915049386994845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\xFCro_Chef_001_27"
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1538
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cef37a68256e3a0800000000000000
+      internalID: -6636526262598767516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "B\xFCro_Chef_001_0": -3483292340575758139
+      "B\xFCro_Chef_001_1": -8028933678471073308
+      "B\xFCro_Chef_001_10": -2789175383979688389
+      "B\xFCro_Chef_001_11": -1871288766483741290
+      "B\xFCro_Chef_001_12": 8488699269935686744
+      "B\xFCro_Chef_001_13": 3393862271975235344
+      "B\xFCro_Chef_001_14": 70117736709415235
+      "B\xFCro_Chef_001_15": 7131723449001073034
+      "B\xFCro_Chef_001_16": -5485975482814709239
+      "B\xFCro_Chef_001_17": 2176512807830139752
+      "B\xFCro_Chef_001_18": 6808677510656841694
+      "B\xFCro_Chef_001_19": -4313702592425386931
+      "B\xFCro_Chef_001_2": -4639337835578315178
+      "B\xFCro_Chef_001_20": 1978427642005176284
+      "B\xFCro_Chef_001_21": -5560667354165399054
+      "B\xFCro_Chef_001_22": -6938252070080263407
+      "B\xFCro_Chef_001_23": 2145865969306534960
+      "B\xFCro_Chef_001_24": -2391485292455758753
+      "B\xFCro_Chef_001_25": -3589788780488449180
+      "B\xFCro_Chef_001_26": 1740915049386994845
+      "B\xFCro_Chef_001_27": -6636526262598767516
+      "B\xFCro_Chef_001_3": -4752222075290591525
+      "B\xFCro_Chef_001_4": -5732156716433502641
+      "B\xFCro_Chef_001_5": 7215766708896725823
+      "B\xFCro_Chef_001_6": 3172038885853829095
+      "B\xFCro_Chef_001_7": 6054938720628992970
+      "B\xFCro_Chef_001_8": 2057053265023248917
+      "B\xFCro_Chef_001_9": -6146521749509659246
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
