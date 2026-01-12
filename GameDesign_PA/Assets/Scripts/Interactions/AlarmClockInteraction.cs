@@ -1,11 +1,19 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AlarmClockInteraction : MonoBehaviour
 {
-    public GameObject AlarmClockPanel; // Panel das eingeblendet wird
-    public GameObject Wecker;       // Objekt zum drücken
-    public InteractiveObject iconObject;  // Referenz zum Icon-Prefab
+    // Panel, das während der Interaktion angezeigt wird
+    public GameObject AlarmClockPanel;
+
+    // Klickbares Objekt (Wecker-Knopf)
+    public GameObject Wecker;
+
+    // Referenz auf den Player
     public PlayerMovement player;
+
+    // Wird ausgelöst, wenn die Interaktion ERFOLGREICH abgeschlossen wurde
+    public UnityEvent OnInteractionCompleted;
 
     private bool isInteracting = false;
 
@@ -16,31 +24,34 @@ public class AlarmClockInteraction : MonoBehaviour
         AlarmClockPanel.SetActive(true);
     }
 
-    public void EndInteraction(bool success)
+    // Beendet die Interaktion
+    private void EndInteraction(bool success)
     {
         isInteracting = false;
         player.isInteracting = false;
 
         AlarmClockPanel.SetActive(false);
 
-        if (success && iconObject != null)
+        // NUR bei Erfolg das Event feuern
+        if (success)
         {
-            iconObject.HideIcon();
+            OnInteractionCompleted?.Invoke();
         }
     }
 
     void Update()
     {
-        if (!isInteracting) return;
+        if (!isInteracting)
+            return;
 
-        // Fenster mit F schließen
+        // Interaktion abbrechen (F)
         if (Input.GetKeyDown(KeyCode.F))
         {
-            EndInteraction(false); // Interaktion nicht erledigt
+            EndInteraction(false);
             return;
         }
 
-        // Knopf klicken
+        // Wecker anklicken
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -49,7 +60,7 @@ public class AlarmClockInteraction : MonoBehaviour
             if (hit != null && hit.gameObject == Wecker)
             {
                 Debug.Log("Wecker-Knopf gedrückt!");
-                EndInteraction(true); // erledigt
+                EndInteraction(true);
             }
         }
     }

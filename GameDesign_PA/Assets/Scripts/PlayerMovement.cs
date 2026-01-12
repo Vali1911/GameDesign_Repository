@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
             animator.enabled = true;
         }
 
-            // Normales Sprite anzeigen
+        // Normales Sprite anzeigen
             sr.sprite = normalSprite;
 
         // Movement

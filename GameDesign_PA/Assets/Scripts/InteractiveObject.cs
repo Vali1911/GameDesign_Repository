@@ -21,14 +21,6 @@ public class InteractiveObject : MonoBehaviour
     // Object an/aus
     private void ToggleInteraction()
     {
-        /*
-        if (linkedObject != null)
-        {
-            bool isActive = linkedObject.activeSelf;
-            linkedObject.SetActive(!isActive);
-        }
-        */
-
         OnInteraction?.Invoke();
     }
 
