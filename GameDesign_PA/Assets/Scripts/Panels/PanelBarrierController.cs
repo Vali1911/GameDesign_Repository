@@ -16,7 +16,7 @@ public class PanelBarrierController : MonoBehaviour
     // Verhindert mehrfaches Abschließen des Panels
     private bool panelCompleted = false;
 
-    void Start()
+    private void Start()
     {
         // Zu Beginn ist der Weg blockiert
         if (barrierCollider != null)
@@ -27,34 +27,30 @@ public class PanelBarrierController : MonoBehaviour
             arrowIndicator.SetActive(false);
     }
 
-    // Diese Methode wird über ein UnityEvent aufgerufen,
-    // sobald ein Icon ausgeblendet wird
+    /// Wird aufgerufen, wenn ein Icon ausgeblendet wurde
     public void OnIconHidden(GameObject icon)
     {
-        // Falls das Panel bereits abgeschlossen ist, abbrechen
         if (panelCompleted)
             return;
 
-        // Sicherheitscheck
         if (!iconsInPanel.Contains(icon))
             return;
 
-        // Entfernt das Icon aus der Panel-Liste
         iconsInPanel.Remove(icon);
 
-        // Wenn keine Icons mehr übrig sind, ist das Panel abgeschlossen
+        // Wenn keine Icons mehr übrig sind -> Panel abgeschlossen
         if (iconsInPanel.Count == 0)
         {
             CompletePanel();
         }
     }
 
-    // Wird genau einmal aufgerufen, wenn alle Icons weg sind
+    /// Panel ist abgeschlossen → Weg freigeben
     private void CompletePanel()
     {
         panelCompleted = true;
 
-        // Barrier deaktivieren → Weg freigeben
+        // Barrier deaktivieren -> Spieler kann weitergehen
         if (barrierCollider != null)
             barrierCollider.enabled = false;
 
@@ -63,11 +59,15 @@ public class PanelBarrierController : MonoBehaviour
             arrowIndicator.SetActive(true);
     }
 
-    // Wird aufgerufen, wenn der Spieler ins nächste Panel läuft
+    /// Wird aufgerufen, wenn der Spieler das Panel verlässt
     public void OnPlayerLeftPanel()
     {
         // Pfeil wieder ausblenden
         if (arrowIndicator != null)
             arrowIndicator.SetActive(false);
+
+        // Barrier wieder aktivieren (Rückweg sperren)
+        if (barrierCollider != null)
+            barrierCollider.enabled = true;
     }
 }
