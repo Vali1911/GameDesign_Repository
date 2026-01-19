@@ -60,6 +60,7 @@ public class PanelBarrierController : MonoBehaviour
     }
 
     /// Wird aufgerufen, wenn der Spieler das Panel verlässt
+    /*
     public void OnPlayerLeftPanel()
     {
         // Pfeil wieder ausblenden
@@ -70,5 +71,6 @@ public class PanelBarrierController : MonoBehaviour
         if (barrierCollider != null)
             barrierCollider.enabled = true;
     }
+    */
 }
 
