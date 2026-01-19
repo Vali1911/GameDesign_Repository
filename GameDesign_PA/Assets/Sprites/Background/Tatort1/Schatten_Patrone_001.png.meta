@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 1781f4a59aefdc04d8635456e3d820a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5261839614508381383
+    second: Schatten_Patrone_001_0
+  - first:
+      213: 9216123484881561647
+    second: Schatten_Patrone_001_1
+  - first:
+      213: 6988325264446513392
+    second: Schatten_Patrone_001_2
+  - first:
+      213: -3037706145982600770
+    second: Schatten_Patrone_001_3
+  - first:
+      213: 4628656588462531556
+    second: Schatten_Patrone_001_4
+  - first:
+      213: -987696221027748687
+    second: Schatten_Patrone_001_5
+  - first:
+      213: -3323198885571528700
+    second: Schatten_Patrone_001_6
+  - first:
+      213: 8965571896364475712
+    second: Schatten_Patrone_001_7
+  - first:
+      213: -7944070614855003989
+    second: Schatten_Patrone_001_8
+  - first:
+      213: -7115510021834469369
+    second: Schatten_Patrone_001_9
+  - first:
+      213: -8671357129928137959
+    second: Schatten_Patrone_001_10
+  - first:
+      213: 6756819760949087981
+    second: Schatten_Patrone_001_11
+  - first:
+      213: -7364838787663147361
+    second: Schatten_Patrone_001_12
+  - first:
+      213: 664803957291760793
+    second: Schatten_Patrone_001_13
+  - first:
+      213: 7411127004401714249
+    second: Schatten_Patrone_001_14
+  - first:
+      213: 5213526260139846757
+    second: Schatten_Patrone_001_15
+  - first:
+      213: -1984389800991646940
+    second: Schatten_Patrone_001_16
+  - first:
+      213: 2844579705385183928
+    second: Schatten_Patrone_001_17
+  - first:
+      213: 7417865655730090195
+    second: Schatten_Patrone_001_18
+  - first:
+      213: 8845190681518663307
+    second: Schatten_Patrone_001_19
+  - first:
+      213: -6797557017974685748
+    second: Schatten_Patrone_001_20
+  - first:
+      213: -8676823602933924698
+    second: Schatten_Patrone_001_21
+  - first:
+      213: 8860837237166154790
+    second: Schatten_Patrone_001_22
+  - first:
+      213: 7071238894900107410
+    second: Schatten_Patrone_001_23
+  - first:
+      213: 4156393286071652114
+    second: Schatten_Patrone_001_24
+  - first:
+      213: -5193540574849391900
+    second: Schatten_Patrone_001_25
+  - first:
+      213: -4684644541800820424
+    second: Schatten_Patrone_001_26
+  - first:
+      213: -2288380651462740346
+    second: Schatten_Patrone_001_27
+  - first:
+      213: 4508012898044888035
+    second: Schatten_Patrone_001_28
+  - first:
+      213: -2766133650622907721
+    second: Schatten_Patrone_001_29
+  - first:
+      213: 3187287834946062758
+    second: Schatten_Patrone_001_30
+  - first:
+      213: -6283275735692676946
+    second: Schatten_Patrone_001_31
+  - first:
+      213: -8308978611600742433
+    second: Schatten_Patrone_001_32
+  - first:
+      213: -8127666242730796989
+    second: Schatten_Patrone_001_33
+  - first:
+      213: -4393720914808910969
+    second: Schatten_Patrone_001_34
+  - first:
+      213: 8277537480737916657
+    second: Schatten_Patrone_001_35
+  - first:
+      213: -4617469799282146253
+    second: Schatten_Patrone_001_36
+  - first:
+      213: -8309628545462717360
+    second: Schatten_Patrone_001_37
+  - first:
+      213: -8200929322592892546
+    second: Schatten_Patrone_001_38
+  - first:
+      213: -6765297744016639418
+    second: Schatten_Patrone_001_39
+  - first:
+      213: 8964993823803800166
+    second: Schatten_Patrone_001_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 314
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4b9df304fc50940800000000000000
+      internalID: 5261839614508381383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 314
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28208afa7f36ef70800000000000000
+      internalID: 9216123484881561647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 302
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0e8326dc48bf060800000000000000
+      internalID: 6988325264446513392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 299
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9afacca56e7d5d0800000000000000
+      internalID: -3037706145982600770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3a49eb4aa4c3040800000000000000
+      internalID: 4628656588462531556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 300
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b435af158ffa42f0800000000000000
+      internalID: -987696221027748687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408f88b7830a1e1d0800000000000000
+      internalID: -3323198885571528700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 186
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045a70b532c1c6c70800000000000000
+      internalID: 8965571896364475712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 262
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0d2f28dddf0c190800000000000000
+      internalID: -7944070614855003989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 275
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70013d0b551a04d90800000000000000
+      internalID: -7115510021834469369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 262
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913251612a629a780800000000000000
+      internalID: -8671357129928137959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 242
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deec5bef5cb05cd50800000000000000
+      internalID: 6756819760949087981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 237
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec159a426dac990800000000000000
+      internalID: -7364838787663147361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 249
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c36a74dabd93900800000000000000
+      internalID: 664803957291760793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 237
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9444ba2aebc99d660800000000000000
+      internalID: 7411127004401714249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 250
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c6ecad28a2a5840800000000000000
+      internalID: 5213526260139846757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 227
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b1cff5df70674e0800000000000000
+      internalID: -1984389800991646940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 224
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bae4cabb2af97720800000000000000
+      internalID: 2844579705385183928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0bc59238d81f660800000000000000
+      internalID: 7417865655730090195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 211
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86e38e9f0e60ca70800000000000000
+      internalID: 8845190681518663307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 199
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfb72b38e93aa1a0800000000000000
+      internalID: -6797557017974685748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 212
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acf568a7eab59780800000000000000
+      internalID: -8676823602933924698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 201
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624a7dd358408fa70800000000000000
+      internalID: 8860837237166154790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 175
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29852745f46122260800000000000000
+      internalID: 7071238894900107410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 174
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f8e131ca97ea930800000000000000
+      internalID: 4156393286071652114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 174
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2268d1d56dce7b0800000000000000
+      internalID: -5193540574849391900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 187
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8315dfa0c9cccfeb0800000000000000
+      internalID: -4684644541800820424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_27
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 170
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686bfaefbe90e30e0800000000000000
+      internalID: -2288380651462740346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 188
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e348d6a8ddaf8e30800000000000000
+      internalID: 4508012898044888035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_29
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 176
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bafd51b918bc99d0800000000000000
+      internalID: -2766133650622907721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 175
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a942ee16658b3c20800000000000000
+      internalID: 3187287834946062758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 164
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0f43432025dc8a0800000000000000
+      internalID: -6283275735692676946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd72831c9f390bc80800000000000000
+      internalID: -8308978611600742433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_33
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 163
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348d81d4d9ab43f80800000000000000
+      internalID: -8127666242730796989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 163
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b4c9e5b1e5603c0800000000000000
+      internalID: -4393720914808910969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 154
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f68d528b78bfd270800000000000000
+      internalID: 8277537480737916657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 153
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33481b49ea37befb0800000000000000
+      internalID: -4617469799282146253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054bf3c3dd44eac80800000000000000
+      internalID: -8309628545462717360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_38
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 141
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7904c24b32703e80800000000000000
+      internalID: -8200929322592892546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 151
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64af220cb85dc12a0800000000000000
+      internalID: -6765297744016639418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Schatten_Patrone_001_40
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 74
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a7569526e0a6c70800000000000000
+      internalID: 8964993823803800166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Schatten_Patrone_001_0: 5261839614508381383
+      Schatten_Patrone_001_1: 9216123484881561647
+      Schatten_Patrone_001_10: -8671357129928137959
+      Schatten_Patrone_001_11: 6756819760949087981
+      Schatten_Patrone_001_12: -7364838787663147361
+      Schatten_Patrone_001_13: 664803957291760793
+      Schatten_Patrone_001_14: 7411127004401714249
+      Schatten_Patrone_001_15: 5213526260139846757
+      Schatten_Patrone_001_16: -1984389800991646940
+      Schatten_Patrone_001_17: 2844579705385183928
+      Schatten_Patrone_001_18: 7417865655730090195
+      Schatten_Patrone_001_19: 8845190681518663307
+      Schatten_Patrone_001_2: 6988325264446513392
+      Schatten_Patrone_001_20: -6797557017974685748
+      Schatten_Patrone_001_21: -8676823602933924698
+      Schatten_Patrone_001_22: 8860837237166154790
+      Schatten_Patrone_001_23: 7071238894900107410
+      Schatten_Patrone_001_24: 4156393286071652114
+      Schatten_Patrone_001_25: -5193540574849391900
+      Schatten_Patrone_001_26: -4684644541800820424
+      Schatten_Patrone_001_27: -2288380651462740346
+      Schatten_Patrone_001_28: 4508012898044888035
+      Schatten_Patrone_001_29: -2766133650622907721
+      Schatten_Patrone_001_3: -3037706145982600770
+      Schatten_Patrone_001_30: 3187287834946062758
+      Schatten_Patrone_001_31: -6283275735692676946
+      Schatten_Patrone_001_32: -8308978611600742433
+      Schatten_Patrone_001_33: -8127666242730796989
+      Schatten_Patrone_001_34: -4393720914808910969
+      Schatten_Patrone_001_35: 8277537480737916657
+      Schatten_Patrone_001_36: -4617469799282146253
+      Schatten_Patrone_001_37: -8309628545462717360
+      Schatten_Patrone_001_38: -8200929322592892546
+      Schatten_Patrone_001_39: -6765297744016639418
+      Schatten_Patrone_001_4: 4628656588462531556
+      Schatten_Patrone_001_40: 8964993823803800166
+      Schatten_Patrone_001_5: -987696221027748687
+      Schatten_Patrone_001_6: -3323198885571528700
+      Schatten_Patrone_001_7: 8965571896364475712
+      Schatten_Patrone_001_8: -7944070614855003989
+      Schatten_Patrone_001_9: -7115510021834469369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
