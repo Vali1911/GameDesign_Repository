@@ -71,3 +71,4 @@ public class PanelBarrierController : MonoBehaviour
             barrierCollider.enabled = true;
     }
 }
+

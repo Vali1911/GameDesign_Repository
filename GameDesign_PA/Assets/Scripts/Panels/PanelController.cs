@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public enum PanelType
 {
@@ -48,3 +48,4 @@ public class PanelController : MonoBehaviour
         }
     }
 }
+*/

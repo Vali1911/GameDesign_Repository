@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using UnityEngine;
 
 public class PanelExitTrigger : MonoBehaviour
@@ -79,3 +79,4 @@ public class PanelExitTrigger : MonoBehaviour
         cameraFollow.SetTarget(player.transform);
     }
 }
+*/
