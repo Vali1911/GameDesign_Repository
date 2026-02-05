@@ -45,7 +45,7 @@ public class PanelBarrierController : MonoBehaviour
         }
     }
 
-    /// Panel ist abgeschlossen → Weg freigeben
+    /// Panel ist abgeschlossen -> Weg freigeben
     private void CompletePanel()
     {
         panelCompleted = true;

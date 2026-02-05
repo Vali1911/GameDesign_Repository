@@ -1,4 +1,5 @@
-using UnityEngine;
+/*
+ * using UnityEngine;
 using UnityEngine.Video;
 
 public class PlayVideoOnEnable : MonoBehaviour
@@ -24,3 +25,4 @@ public class PlayVideoOnEnable : MonoBehaviour
         vp.Play();
     }
 }
+*/
