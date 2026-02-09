@@ -1,0 +1,4043 @@
+fileFormatVersion: 2
+guid: c9a3d53ef89ec3d4ea168470baa4bdcb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3258246683289374508
+    second: Tatort 2_0
+  - first:
+      213: 3265438825151943038
+    second: Tatort 2_1
+  - first:
+      213: 5280156891978937373
+    second: Tatort 2_2
+  - first:
+      213: -5509418619842493448
+    second: Tatort 2_3
+  - first:
+      213: 8303696848776595724
+    second: Tatort 2_4
+  - first:
+      213: -7529422073455443310
+    second: Tatort 2_5
+  - first:
+      213: -5717824000776984631
+    second: Tatort 2_6
+  - first:
+      213: 1958081723252227586
+    second: Tatort 2_7
+  - first:
+      213: 3582699219130169191
+    second: Tatort 2_8
+  - first:
+      213: -5756204886263108167
+    second: Tatort 2_9
+  - first:
+      213: -6794056024037699975
+    second: Tatort 2_10
+  - first:
+      213: -2093936632952168774
+    second: Tatort 2_11
+  - first:
+      213: 2512150632650362586
+    second: Tatort 2_12
+  - first:
+      213: -2698802221767332290
+    second: Tatort 2_13
+  - first:
+      213: 1826071212835727555
+    second: Tatort 2_14
+  - first:
+      213: 4020137877086690383
+    second: Tatort 2_15
+  - first:
+      213: -6512314798733050193
+    second: Tatort 2_16
+  - first:
+      213: 8368774985118079743
+    second: Tatort 2_17
+  - first:
+      213: -5625749680268725722
+    second: Tatort 2_18
+  - first:
+      213: -8475717917047175179
+    second: Tatort 2_19
+  - first:
+      213: 3144892327885929531
+    second: Tatort 2_20
+  - first:
+      213: -8295963650500542792
+    second: Tatort 2_21
+  - first:
+      213: -5717476299430682615
+    second: Tatort 2_22
+  - first:
+      213: -6610200849875484645
+    second: Tatort 2_23
+  - first:
+      213: 3593426703960590970
+    second: Tatort 2_24
+  - first:
+      213: 6370177187536541486
+    second: Tatort 2_25
+  - first:
+      213: 5074173623597724600
+    second: Tatort 2_26
+  - first:
+      213: -8129564683003457399
+    second: Tatort 2_27
+  - first:
+      213: 2254678892736210399
+    second: Tatort 2_28
+  - first:
+      213: -4760478648761011102
+    second: Tatort 2_29
+  - first:
+      213: 184286653130870525
+    second: Tatort 2_30
+  - first:
+      213: -4061951720891784035
+    second: Tatort 2_31
+  - first:
+      213: 6567117142365858190
+    second: Tatort 2_32
+  - first:
+      213: -6405345212520566577
+    second: Tatort 2_33
+  - first:
+      213: 134586110549720116
+    second: Tatort 2_34
+  - first:
+      213: 6427405494772154867
+    second: Tatort 2_35
+  - first:
+      213: 8436490348635854271
+    second: Tatort 2_36
+  - first:
+      213: 519119512523246484
+    second: Tatort 2_37
+  - first:
+      213: -7948418669776878863
+    second: Tatort 2_38
+  - first:
+      213: -3056004316342688131
+    second: Tatort 2_39
+  - first:
+      213: 7971520014957934322
+    second: Tatort 2_40
+  - first:
+      213: -3491503491176198789
+    second: Tatort 2_41
+  - first:
+      213: 4060625533082408980
+    second: Tatort 2_42
+  - first:
+      213: -5015740205166143711
+    second: Tatort 2_43
+  - first:
+      213: -325105540787257659
+    second: Tatort 2_44
+  - first:
+      213: -4390718040031380455
+    second: Tatort 2_45
+  - first:
+      213: -3084594690286324853
+    second: Tatort 2_46
+  - first:
+      213: -2751095648702941255
+    second: Tatort 2_47
+  - first:
+      213: -5896284334579220457
+    second: Tatort 2_48
+  - first:
+      213: 4775636720140011042
+    second: Tatort 2_49
+  - first:
+      213: -7271483485031029922
+    second: Tatort 2_50
+  - first:
+      213: 316659699832026931
+    second: Tatort 2_51
+  - first:
+      213: -1538121800994639959
+    second: Tatort 2_52
+  - first:
+      213: 1921360247394766193
+    second: Tatort 2_53
+  - first:
+      213: -3446235210035094066
+    second: Tatort 2_54
+  - first:
+      213: 6056944782109272902
+    second: Tatort 2_55
+  - first:
+      213: 5693529071578939511
+    second: Tatort 2_56
+  - first:
+      213: 8826168007221030386
+    second: Tatort 2_57
+  - first:
+      213: -3549850130728604932
+    second: Tatort 2_58
+  - first:
+      213: 7340710518711276724
+    second: Tatort 2_59
+  - first:
+      213: -8954574672235439566
+    second: Tatort 2_60
+  - first:
+      213: -7035698720163266166
+    second: Tatort 2_61
+  - first:
+      213: -6393194186146094811
+    second: Tatort 2_62
+  - first:
+      213: -4009744634436641070
+    second: Tatort 2_63
+  - first:
+      213: 5285106510735646095
+    second: Tatort 2_64
+  - first:
+      213: -8689193568719377144
+    second: Tatort 2_65
+  - first:
+      213: -6299271599178378820
+    second: Tatort 2_66
+  - first:
+      213: 194056012946228768
+    second: Tatort 2_67
+  - first:
+      213: -678631369994535728
+    second: Tatort 2_68
+  - first:
+      213: 8183843893958354289
+    second: Tatort 2_69
+  - first:
+      213: -7948529453879212854
+    second: Tatort 2_70
+  - first:
+      213: -8845129266215534598
+    second: Tatort 2_71
+  - first:
+      213: -7522669300573643257
+    second: Tatort 2_72
+  - first:
+      213: 7875282370738395966
+    second: Tatort 2_73
+  - first:
+      213: 2195321561071666031
+    second: Tatort 2_74
+  - first:
+      213: -1073004426384448577
+    second: Tatort 2_75
+  - first:
+      213: -393124569085638597
+    second: Tatort 2_76
+  - first:
+      213: -4730428726066277887
+    second: Tatort 2_77
+  - first:
+      213: 8569286294421359310
+    second: Tatort 2_78
+  - first:
+      213: 3396201392159023792
+    second: Tatort 2_79
+  - first:
+      213: 9037040284599168704
+    second: Tatort 2_80
+  - first:
+      213: -8076201295802205481
+    second: Tatort 2_81
+  - first:
+      213: -6151079048821568504
+    second: Tatort 2_82
+  - first:
+      213: 2910321406244849284
+    second: Tatort 2_83
+  - first:
+      213: -8934191812340968564
+    second: Tatort 2_84
+  - first:
+      213: -1343910301734304740
+    second: Tatort 2_85
+  - first:
+      213: 8287760964853780327
+    second: Tatort 2_86
+  - first:
+      213: 2884368642984852575
+    second: Tatort 2_87
+  - first:
+      213: 5595821223291430472
+    second: Tatort 2_88
+  - first:
+      213: -8713348738234142349
+    second: Tatort 2_89
+  - first:
+      213: 3284348604447016989
+    second: Tatort 2_90
+  - first:
+      213: 8125033404419191012
+    second: Tatort 2_91
+  - first:
+      213: -3833668994147782311
+    second: Tatort 2_92
+  - first:
+      213: 8346945030291649632
+    second: Tatort 2_93
+  - first:
+      213: 8333623383309252555
+    second: Tatort 2_94
+  - first:
+      213: -331549946333014856
+    second: Tatort 2_95
+  - first:
+      213: -3605404947274078328
+    second: Tatort 2_96
+  - first:
+      213: 4661268778287223894
+    second: Tatort 2_97
+  - first:
+      213: -3346344257872630458
+    second: Tatort 2_98
+  - first:
+      213: -3757627926723081012
+    second: Tatort 2_99
+  - first:
+      213: 1935695234662309466
+    second: Tatort 2_100
+  - first:
+      213: -5884776777323132280
+    second: Tatort 2_101
+  - first:
+      213: -5674926903371449751
+    second: Tatort 2_102
+  - first:
+      213: -3186290153535553389
+    second: Tatort 2_103
+  - first:
+      213: 8586171516175123230
+    second: Tatort 2_104
+  - first:
+      213: 7119424430158651881
+    second: Tatort 2_105
+  - first:
+      213: -251721884980350906
+    second: Tatort 2_106
+  - first:
+      213: 3999647809056368671
+    second: Tatort 2_107
+  - first:
+      213: -4920111018222858268
+    second: Tatort 2_108
+  - first:
+      213: -3797815628461792375
+    second: Tatort 2_109
+  - first:
+      213: 763610835865380910
+    second: Tatort 2_110
+  - first:
+      213: 5457839342473801528
+    second: Tatort 2_111
+  - first:
+      213: 8837122668281935550
+    second: Tatort 2_112
+  - first:
+      213: -5756077246514549040
+    second: Tatort 2_113
+  - first:
+      213: -6447872391427916965
+    second: Tatort 2_114
+  - first:
+      213: 4021090205523874785
+    second: Tatort 2_115
+  - first:
+      213: 194662358739778219
+    second: Tatort 2_116
+  - first:
+      213: -3288290973241424186
+    second: Tatort 2_117
+  - first:
+      213: 6980991224635498271
+    second: Tatort 2_118
+  - first:
+      213: 5178122071975587480
+    second: Tatort 2_119
+  - first:
+      213: -2628449988293814867
+    second: Tatort 2_120
+  - first:
+      213: -4330233293629781615
+    second: Tatort 2_121
+  - first:
+      213: -5951152921486935177
+    second: Tatort 2_122
+  - first:
+      213: -5535807276795992738
+    second: Tatort 2_123
+  - first:
+      213: -8731096589972803265
+    second: Tatort 2_124
+  - first:
+      213: -6982349346497092465
+    second: Tatort 2_125
+  - first:
+      213: 7899590612590570827
+    second: Tatort 2_126
+  - first:
+      213: -6565921344614571368
+    second: Tatort 2_127
+  - first:
+      213: 6851480680167896379
+    second: Tatort 2_128
+  - first:
+      213: -658431096034529027
+    second: Tatort 2_129
+  - first:
+      213: 6255204928177228006
+    second: Tatort 2_130
+  - first:
+      213: 27405316902662820
+    second: Tatort 2_131
+  - first:
+      213: -7416775707720826634
+    second: Tatort 2_132
+  - first:
+      213: 2426181416889427685
+    second: Tatort 2_133
+  - first:
+      213: 4893571535425705138
+    second: Tatort 2_134
+  - first:
+      213: 3842606095198286888
+    second: Tatort 2_135
+  - first:
+      213: 1249389644076167730
+    second: Tatort 2_136
+  - first:
+      213: 7965676993055079071
+    second: Tatort 2_137
+  - first:
+      213: 3056674524616492206
+    second: Tatort 2_138
+  - first:
+      213: -9046625554639239851
+    second: Tatort 2_139
+  - first:
+      213: 8422099741805324477
+    second: Tatort 2_140
+  - first:
+      213: 7664386975113286043
+    second: Tatort 2_141
+  - first:
+      213: -6679243626128834597
+    second: Tatort 2_142
+  - first:
+      213: -5810354283273630359
+    second: Tatort 2_143
+  - first:
+      213: 5661684987496230469
+    second: Tatort 2_144
+  - first:
+      213: -3720852258037394775
+    second: Tatort 2_145
+  - first:
+      213: 3585310136791178061
+    second: Tatort 2_146
+  - first:
+      213: -1041294329029816656
+    second: Tatort 2_147
+  - first:
+      213: 4557080181751552573
+    second: Tatort 2_148
+  - first:
+      213: -808588877817575649
+    second: Tatort 2_149
+  - first:
+      213: -4007728787692063974
+    second: Tatort 2_150
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 95}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tatort 2_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2075
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d031fb87e168c2d0800000000000000
+      internalID: -3258246683289374508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7153f87f4b215d20800000000000000
+      internalID: 3265438825151943038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2075
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d143cb0c7b2e64940800000000000000
+      internalID: 5280156891978937373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f38d5594fc9a83b0800000000000000
+      internalID: -5509418619842493448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2075
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c090cd10a48ac3370800000000000000
+      internalID: 8303696848776595724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29204bb448e128790800000000000000
+      internalID: -7529422073455443310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c72c799d5536a0b0800000000000000
+      internalID: -5717824000776984631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e32a3f3f08c2b10800000000000000
+      internalID: 1958081723252227586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2075
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767b25535fd48b130800000000000000
+      internalID: 3582699219130169191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd6be3572add10b0800000000000000
+      internalID: -5756204886263108167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e4127ea0aa6b1a0800000000000000
+      internalID: -6794056024037699975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe55baf9b7d0f2e0800000000000000
+      internalID: -2093936632952168774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_12
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adec561c0b3fcd220800000000000000
+      internalID: 2512150632650362586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ee58c9dadeb8ad0800000000000000
+      internalID: -2698802221767332290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8e3a7d712875910800000000000000
+      internalID: 1826071212835727555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_15
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c58df79166ac730800000000000000
+      internalID: 4020137877086690383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae3ffbb13c9f95a0800000000000000
+      internalID: -6512314798733050193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_17
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa5321628cd32470800000000000000
+      internalID: 8368774985118079743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_18
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622b058e8725de1b0800000000000000
+      internalID: -5625749680268725722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_19
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f74df1f573306a80800000000000000
+      internalID: -8475717917047175179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_20
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cfd7ce8e6e4ab20800000000000000
+      internalID: 3144892327885929531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_21
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bebc568301dedc80800000000000000
+      internalID: -8295963650500542792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_22
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90028b0299177a0b0800000000000000
+      internalID: -5717476299430682615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10cf217959d344a0800000000000000
+      internalID: -6610200849875484645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_24
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a49f76c8a6ed130800000000000000
+      internalID: 3593426703960590970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_25
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e279963c66a676850800000000000000
+      internalID: 6370177187536541486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_26
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3f23bc6061b6640800000000000000
+      internalID: 5074173623597724600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_27
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980940b3efbfd2f80800000000000000
+      internalID: -8129564683003457399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_28
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5ec14d18a3a4f10800000000000000
+      internalID: 2254678892736210399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_29
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264b4cb14e16fedb0800000000000000
+      internalID: -4760478648761011102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_30
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe06b01cb7be8200800000000000000
+      internalID: 184286653130870525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_31
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9465755e6c01a7c0800000000000000
+      internalID: -4061951720891784035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_32
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8968153f36132b50800000000000000
+      internalID: 6567117142365858190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_33
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc076f75774ab17a0800000000000000
+      internalID: -6405345212520566577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_34
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c740fba552ed100800000000000000
+      internalID: 134586110549720116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_35
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1c94f5e3bb23950800000000000000
+      internalID: 6427405494772154867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_36
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5937d064f641570800000000000000
+      internalID: 8436490348635854271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_37
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b0ceb3278443700800000000000000
+      internalID: 519119512523246484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_38
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2cdd5155b81b190800000000000000
+      internalID: -7948418669776878863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_39
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7665540444e695d0800000000000000
+      internalID: -3056004316342688131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_40
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6fb7bf73780ae60800000000000000
+      internalID: 7971520014957934322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_41
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d0864d210bb8fc0800000000000000
+      internalID: -3491503491176198789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_42
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4181241886d3a5830800000000000000
+      internalID: 4060625533082408980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_43
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1275d61abd2846ab0800000000000000
+      internalID: -5015740205166143711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_44
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce3ddeab3efc7bf0800000000000000
+      internalID: -325105540787257659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_45
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cb703a4390113c0800000000000000
+      internalID: -4390718040031380455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_46
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b837d69d8715135d0800000000000000
+      internalID: -3084594690286324853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_47
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b730fb551522d9d0800000000000000
+      internalID: -2751095648702941255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_48
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71084b633a03c2ea0800000000000000
+      internalID: -5896284334579220457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_49
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226c1486b48764240800000000000000
+      internalID: 4775636720140011042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_50
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e532b9cdb40861b90800000000000000
+      internalID: -7271483485031029922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_51
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3377b2bb150056400800000000000000
+      internalID: 316659699832026931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_52
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af2e6e0f5e77aae0800000000000000
+      internalID: -1538121800994639959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_53
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d858717fa0aaa10800000000000000
+      internalID: 1921360247394766193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_54
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd1a6dd5538c20d0800000000000000
+      internalID: -3446235210035094066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_55
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b67c130379e0450800000000000000
+      internalID: 6056944782109272902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_56
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77082d5668a730f40800000000000000
+      internalID: 5693529071578939511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_57
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fda35e1a09dc7a70800000000000000
+      internalID: 8826168007221030386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_58
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa2c003d166cbec0800000000000000
+      internalID: -3549850130728604932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_59
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b452c2f2517fd560800000000000000
+      internalID: 7340710518711276724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_60
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a52ba67c5fab380800000000000000
+      internalID: -8954574672235439566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_61
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a818ffd6a4d2c5e90800000000000000
+      internalID: -7035698720163266166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_62
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5216ba2a2cfc647a0800000000000000
+      internalID: -6393194186146094811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_63
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de1060ef768a58c0800000000000000
+      internalID: -4009744634436641070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_64
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d908cae58785940800000000000000
+      internalID: 5285106510735646095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_65
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d6fdf8c78c96780800000000000000
+      internalID: -8689193568719377144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_66
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb114430bdd7498a0800000000000000
+      internalID: -6299271599178378820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_67
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 2075
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02640366aec61b200800000000000000
+      internalID: 194056012946228768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_68
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcf9025d540596f0800000000000000
+      internalID: -678631369994535728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_69
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17523a469aad29170800000000000000
+      internalID: 8183843893958354289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_70
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4ccc6239621b190800000000000000
+      internalID: -7948529453879212854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_71
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affbfcebbc9cf3580800000000000000
+      internalID: -8845129266215534598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_72
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2075
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e5290c02c1a9790800000000000000
+      internalID: -7522669300573643257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_73
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b12c5579f9a4d60800000000000000
+      internalID: 7875282370738395966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_74
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63ce671459577e10800000000000000
+      internalID: 2195321561071666031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_75
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2075
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3eee2c82ceb11f0800000000000000
+      internalID: -1073004426384448577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_76
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b380c2b89475b8af0800000000000000
+      internalID: -393124569085638597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_77
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1021483f2242a5eb0800000000000000
+      internalID: -4730428726066277887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_78
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecacb959b783ce670800000000000000
+      internalID: 8569286294421359310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_79
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2635d1c2bb12f20800000000000000
+      internalID: 3396201392159023792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_80
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cead6032440a6d70800000000000000
+      internalID: 9037040284599168704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_81
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7daf82506b19bef80800000000000000
+      internalID: -8076201295802205481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_82
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c84a5e13af2aaa0800000000000000
+      internalID: -6151079048821568504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_83
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486807146e9836820800000000000000
+      internalID: 2910321406244849284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_84
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83963ec1ef530480800000000000000
+      internalID: -8934191812340968564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_85
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14832f63b8795de0800000000000000
+      internalID: -1343910301734304740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_86
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f4575efaa040370800000000000000
+      internalID: 8287760964853780327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_87
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c336eaff5570820800000000000000
+      internalID: 2884368642984852575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_88
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846a0e031c958ad40800000000000000
+      internalID: 5595821223291430472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_89
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371b475ec77f31780800000000000000
+      internalID: -8713348738234142349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_90
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d184d9e87a9549d20800000000000000
+      internalID: 3284348604447016989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_91
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0b69245dae1c070800000000000000
+      internalID: 8125033404419191012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_92
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95174698c521ccac0800000000000000
+      internalID: -3833668994147782311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_93
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064fe32f74e46d370800000000000000
+      internalID: 8346945030291649632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_94
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7790e405af6a370800000000000000
+      internalID: 8333623383309252555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_95
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b455879419166bf0800000000000000
+      internalID: -331549946333014856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_96
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887ea4e7d4707fdc0800000000000000
+      internalID: -3605404947274078328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_97
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654dd64e14720b040800000000000000
+      internalID: 4661268778287223894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_98
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d655d80a56f81d0800000000000000
+      internalID: -3346344257872630458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_99
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc45953f493adbc0800000000000000
+      internalID: -3757627926723081012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_100
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e96776f88fcda10800000000000000
+      internalID: 1935695234662309466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_101
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88acf2d23b2155ea0800000000000000
+      internalID: -5884776777323132280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_102
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96abc366c0c9e31b0800000000000000
+      internalID: -5674926903371449751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_103
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390403facf508c3d0800000000000000
+      internalID: -3186290153535553389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_104
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e130232a085382770800000000000000
+      internalID: 8586171516175123230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_105
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e128d48cc64dc260800000000000000
+      internalID: 7119424430158651881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_106
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640fd8f7744b18cf0800000000000000
+      internalID: -251721884980350906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_107
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f186975cd7a918730800000000000000
+      internalID: 3999647809056368671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_108
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef4757c81148bbb0800000000000000
+      internalID: -4920111018222858268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_109
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983ab1fbec27b4bc0800000000000000
+      internalID: -3797815628461792375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_110
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28256a6204e89a00800000000000000
+      internalID: 763610835865380910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_111
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f6d4117f32ebb40800000000000000
+      internalID: 5457839342473801528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_112
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb63f77ee34c3aa70800000000000000
+      internalID: 8837122668281935550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_113
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deaac5cd3e4e10b0800000000000000
+      internalID: -5756077246514549040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_114
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bf3e7e83e8486a0800000000000000
+      internalID: -6447872391427916965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_115
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e39d0ebc38cdc730800000000000000
+      internalID: 4021090205523874785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_116
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaf2d7426493b200800000000000000
+      internalID: 194662358739778219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_117
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c642dd28c4ad52d0800000000000000
+      internalID: -3288290973241424186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_118
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f948c288671e060800000000000000
+      internalID: 6980991224635498271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_119
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee6bfe6926cd740800000000000000
+      internalID: 5178122071975587480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_120
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da51ed969aed58bd0800000000000000
+      internalID: -2628449988293814867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_121
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19980a213cbe7e3c0800000000000000
+      internalID: -4330233293629781615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_122
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b3ebec2f1496da0800000000000000
+      internalID: -5951152921486935177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_123
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e556d899c9cdc23b0800000000000000
+      internalID: -5535807276795992738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_124
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31fb0729e9e4d680800000000000000
+      internalID: -8731096589972803265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_125
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f842c507346b91f90800000000000000
+      internalID: -6982349346497092465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_126
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4da87eeecbf0ad60800000000000000
+      internalID: 7899590612590570827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_127
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892e717235921e4a0800000000000000
+      internalID: -6565921344614571368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_128
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35fbdeb069551f50800000000000000
+      internalID: 6851480680167896379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_129
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df07acb1868ccd6f0800000000000000
+      internalID: -658431096034529027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_130
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8c64d9db3fec650800000000000000
+      internalID: 6255204928177228006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_131
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2b0f29dfc516000800000000000000
+      internalID: 27405316902662820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_132
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0cd822ac1521990800000000000000
+      internalID: -7416775707720826634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_133
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6295ae4278ba120800000000000000
+      internalID: 2426181416889427685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_134
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4130c526579e340800000000000000
+      internalID: 4893571535425705138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_135
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8247b0472eda35530800000000000000
+      internalID: 3842606095198286888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_136
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23236310349b65110800000000000000
+      internalID: 1249389644076167730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_137
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 2075
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9abc8e6505cb8e60800000000000000
+      internalID: 7965676993055079071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_138
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea480c1094d7b6a20800000000000000
+      internalID: 3056674524616492206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_139
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555c1c73dfde37280800000000000000
+      internalID: -9046625554639239851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_140
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8273dc71f41e470800000000000000
+      internalID: 8422099741805324477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_141
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9112c0a85f5d5a60800000000000000
+      internalID: 7664386975113286043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_142
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf7c486f4f8e43a0800000000000000
+      internalID: -6679243626128834597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_143
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4e4e50997d5fa0800000000000000
+      internalID: -5810354283273630359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_144
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eefddcf78529e40800000000000000
+      internalID: 5661684987496230469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_145
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a298f1d590ec5cc0800000000000000
+      internalID: -3720852258037394775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_146
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b9b09d29491c130800000000000000
+      internalID: 3585310136791178061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_147
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be8c8323549c81f0800000000000000
+      internalID: -1041294329029816656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_148
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 2075
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a1646e7400e3f30800000000000000
+      internalID: 4557080181751552573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_149
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 2075
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f170a5023b057c4f0800000000000000
+      internalID: -808588877817575649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tatort 2_150
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 162
+        width: 3041
+        height: 1913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13f185c6efa168c0800000000000000
+      internalID: -4007728787692063974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tatort 2_0: -3258246683289374508
+      Tatort 2_1: 3265438825151943038
+      Tatort 2_10: -6794056024037699975
+      Tatort 2_100: 1935695234662309466
+      Tatort 2_101: -5884776777323132280
+      Tatort 2_102: -5674926903371449751
+      Tatort 2_103: -3186290153535553389
+      Tatort 2_104: 8586171516175123230
+      Tatort 2_105: 7119424430158651881
+      Tatort 2_106: -251721884980350906
+      Tatort 2_107: 3999647809056368671
+      Tatort 2_108: -4920111018222858268
+      Tatort 2_109: -3797815628461792375
+      Tatort 2_11: -2093936632952168774
+      Tatort 2_110: 763610835865380910
+      Tatort 2_111: 5457839342473801528
+      Tatort 2_112: 8837122668281935550
+      Tatort 2_113: -5756077246514549040
+      Tatort 2_114: -6447872391427916965
+      Tatort 2_115: 4021090205523874785
+      Tatort 2_116: 194662358739778219
+      Tatort 2_117: -3288290973241424186
+      Tatort 2_118: 6980991224635498271
+      Tatort 2_119: 5178122071975587480
+      Tatort 2_12: 2512150632650362586
+      Tatort 2_120: -2628449988293814867
+      Tatort 2_121: -4330233293629781615
+      Tatort 2_122: -5951152921486935177
+      Tatort 2_123: -5535807276795992738
+      Tatort 2_124: -8731096589972803265
+      Tatort 2_125: -6982349346497092465
+      Tatort 2_126: 7899590612590570827
+      Tatort 2_127: -6565921344614571368
+      Tatort 2_128: 6851480680167896379
+      Tatort 2_129: -658431096034529027
+      Tatort 2_13: -2698802221767332290
+      Tatort 2_130: 6255204928177228006
+      Tatort 2_131: 27405316902662820
+      Tatort 2_132: -7416775707720826634
+      Tatort 2_133: 2426181416889427685
+      Tatort 2_134: 4893571535425705138
+      Tatort 2_135: 3842606095198286888
+      Tatort 2_136: 1249389644076167730
+      Tatort 2_137: 7965676993055079071
+      Tatort 2_138: 3056674524616492206
+      Tatort 2_139: -9046625554639239851
+      Tatort 2_14: 1826071212835727555
+      Tatort 2_140: 8422099741805324477
+      Tatort 2_141: 7664386975113286043
+      Tatort 2_142: -6679243626128834597
+      Tatort 2_143: -5810354283273630359
+      Tatort 2_144: 5661684987496230469
+      Tatort 2_145: -3720852258037394775
+      Tatort 2_146: 3585310136791178061
+      Tatort 2_147: -1041294329029816656
+      Tatort 2_148: 4557080181751552573
+      Tatort 2_149: -808588877817575649
+      Tatort 2_15: 4020137877086690383
+      Tatort 2_150: -4007728787692063974
+      Tatort 2_16: -6512314798733050193
+      Tatort 2_17: 8368774985118079743
+      Tatort 2_18: -5625749680268725722
+      Tatort 2_19: -8475717917047175179
+      Tatort 2_2: 5280156891978937373
+      Tatort 2_20: 3144892327885929531
+      Tatort 2_21: -8295963650500542792
+      Tatort 2_22: -5717476299430682615
+      Tatort 2_23: -6610200849875484645
+      Tatort 2_24: 3593426703960590970
+      Tatort 2_25: 6370177187536541486
+      Tatort 2_26: 5074173623597724600
+      Tatort 2_27: -8129564683003457399
+      Tatort 2_28: 2254678892736210399
+      Tatort 2_29: -4760478648761011102
+      Tatort 2_3: -5509418619842493448
+      Tatort 2_30: 184286653130870525
+      Tatort 2_31: -4061951720891784035
+      Tatort 2_32: 6567117142365858190
+      Tatort 2_33: -6405345212520566577
+      Tatort 2_34: 134586110549720116
+      Tatort 2_35: 6427405494772154867
+      Tatort 2_36: 8436490348635854271
+      Tatort 2_37: 519119512523246484
+      Tatort 2_38: -7948418669776878863
+      Tatort 2_39: -3056004316342688131
+      Tatort 2_4: 8303696848776595724
+      Tatort 2_40: 7971520014957934322
+      Tatort 2_41: -3491503491176198789
+      Tatort 2_42: 4060625533082408980
+      Tatort 2_43: -5015740205166143711
+      Tatort 2_44: -325105540787257659
+      Tatort 2_45: -4390718040031380455
+      Tatort 2_46: -3084594690286324853
+      Tatort 2_47: -2751095648702941255
+      Tatort 2_48: -5896284334579220457
+      Tatort 2_49: 4775636720140011042
+      Tatort 2_5: -7529422073455443310
+      Tatort 2_50: -7271483485031029922
+      Tatort 2_51: 316659699832026931
+      Tatort 2_52: -1538121800994639959
+      Tatort 2_53: 1921360247394766193
+      Tatort 2_54: -3446235210035094066
+      Tatort 2_55: 6056944782109272902
+      Tatort 2_56: 5693529071578939511
+      Tatort 2_57: 8826168007221030386
+      Tatort 2_58: -3549850130728604932
+      Tatort 2_59: 7340710518711276724
+      Tatort 2_6: -5717824000776984631
+      Tatort 2_60: -8954574672235439566
+      Tatort 2_61: -7035698720163266166
+      Tatort 2_62: -6393194186146094811
+      Tatort 2_63: -4009744634436641070
+      Tatort 2_64: 5285106510735646095
+      Tatort 2_65: -8689193568719377144
+      Tatort 2_66: -6299271599178378820
+      Tatort 2_67: 194056012946228768
+      Tatort 2_68: -678631369994535728
+      Tatort 2_69: 8183843893958354289
+      Tatort 2_7: 1958081723252227586
+      Tatort 2_70: -7948529453879212854
+      Tatort 2_71: -8845129266215534598
+      Tatort 2_72: -7522669300573643257
+      Tatort 2_73: 7875282370738395966
+      Tatort 2_74: 2195321561071666031
+      Tatort 2_75: -1073004426384448577
+      Tatort 2_76: -393124569085638597
+      Tatort 2_77: -4730428726066277887
+      Tatort 2_78: 8569286294421359310
+      Tatort 2_79: 3396201392159023792
+      Tatort 2_8: 3582699219130169191
+      Tatort 2_80: 9037040284599168704
+      Tatort 2_81: -8076201295802205481
+      Tatort 2_82: -6151079048821568504
+      Tatort 2_83: 2910321406244849284
+      Tatort 2_84: -8934191812340968564
+      Tatort 2_85: -1343910301734304740
+      Tatort 2_86: 8287760964853780327
+      Tatort 2_87: 2884368642984852575
+      Tatort 2_88: 5595821223291430472
+      Tatort 2_89: -8713348738234142349
+      Tatort 2_9: -5756204886263108167
+      Tatort 2_90: 3284348604447016989
+      Tatort 2_91: 8125033404419191012
+      Tatort 2_92: -3833668994147782311
+      Tatort 2_93: 8346945030291649632
+      Tatort 2_94: 8333623383309252555
+      Tatort 2_95: -331549946333014856
+      Tatort 2_96: -3605404947274078328
+      Tatort 2_97: 4661268778287223894
+      Tatort 2_98: -3346344257872630458
+      Tatort 2_99: -3757627926723081012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

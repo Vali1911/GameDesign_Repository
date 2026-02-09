@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 167db83241abccc4d886858e1f3e09d1
+guid: ad30fd30e847b2042b5051522f013051
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2178066695446269014
-    second: Panel_003_0
+      213: 6045475926368443954
+    second: Tisch_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Panel_003_0
+      name: Tisch_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3840
-        height: 2160
+        width: 324
+        height: 412
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa3f0d061e3f5c1e0800000000000000
-      internalID: -2178066695446269014
+      spriteID: 23edd512358d5e350800000000000000
+      internalID: 6045475926368443954
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 934a96bbfbc08b1499352b5f1ca721d8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Panel_003_0: -2178066695446269014
+      Tisch_0: 6045475926368443954
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
