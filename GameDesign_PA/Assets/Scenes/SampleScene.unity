@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 588454779}
   - component: {fileID: 588454778}
   m_Layer: 0
-  m_Name: Tatort 2
+  m_Name: Panel_06_CrimeScene_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

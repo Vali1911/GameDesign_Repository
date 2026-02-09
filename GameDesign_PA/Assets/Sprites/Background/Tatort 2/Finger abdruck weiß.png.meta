@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 3be3c2c86432e9c4d9b90716d03d0983
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1374189452770235304
+    second: "Finger abdruck wei\xDF_0"
+  - first:
+      213: -8762386143920650256
+    second: "Finger abdruck wei\xDF_1"
+  - first:
+      213: 3170082702009839305
+    second: "Finger abdruck wei\xDF_2"
+  - first:
+      213: -823427994651115937
+    second: "Finger abdruck wei\xDF_3"
+  - first:
+      213: 245788902957376352
+    second: "Finger abdruck wei\xDF_4"
+  - first:
+      213: 1956996979498433499
+    second: "Finger abdruck wei\xDF_5"
+  - first:
+      213: -5838499666487043563
+    second: "Finger abdruck wei\xDF_6"
+  - first:
+      213: 9211243159506102210
+    second: "Finger abdruck wei\xDF_7"
+  - first:
+      213: -1686281488844199773
+    second: "Finger abdruck wei\xDF_8"
+  - first:
+      213: 885470940433827894
+    second: "Finger abdruck wei\xDF_9"
+  - first:
+      213: -8940533505525177110
+    second: "Finger abdruck wei\xDF_10"
+  - first:
+      213: -1722374637199406466
+    second: "Finger abdruck wei\xDF_11"
+  - first:
+      213: -7100310711100148111
+    second: "Finger abdruck wei\xDF_12"
+  - first:
+      213: 8314917668555379943
+    second: "Finger abdruck wei\xDF_13"
+  - first:
+      213: 8894926617828605342
+    second: "Finger abdruck wei\xDF_14"
+  - first:
+      213: -911549575892997450
+    second: "Finger abdruck wei\xDF_15"
+  - first:
+      213: -1924276885523749325
+    second: "Finger abdruck wei\xDF_16"
+  - first:
+      213: -3669782970595784395
+    second: "Finger abdruck wei\xDF_17"
+  - first:
+      213: -4867868441085318224
+    second: "Finger abdruck wei\xDF_18"
+  - first:
+      213: 6298408733556436205
+    second: "Finger abdruck wei\xDF_19"
+  - first:
+      213: -2071298487128910702
+    second: "Finger abdruck wei\xDF_20"
+  - first:
+      213: 337790573148120109
+    second: "Finger abdruck wei\xDF_21"
+  - first:
+      213: -8810179238823657315
+    second: "Finger abdruck wei\xDF_22"
+  - first:
+      213: 8152759616203307054
+    second: "Finger abdruck wei\xDF_23"
+  - first:
+      213: 7000110764749469003
+    second: "Finger abdruck wei\xDF_24"
+  - first:
+      213: -3820685842637695852
+    second: "Finger abdruck wei\xDF_25"
+  - first:
+      213: -865616024633159331
+    second: "Finger abdruck wei\xDF_26"
+  - first:
+      213: 719627238456649236
+    second: "Finger abdruck wei\xDF_27"
+  - first:
+      213: 5550877730361924217
+    second: "Finger abdruck wei\xDF_28"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_0"
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 878
+        width: 528
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85caa8539f5edece0800000000000000
+      internalID: -1374189452770235304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_1"
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 985
+        width: 456
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f70eca2a30c56680800000000000000
+      internalID: -8762386143920650256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_2"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1069
+        width: 310
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce28e1fb656efb20800000000000000
+      internalID: 3170082702009839305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_3"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1060
+        width: 335
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e35b00a989294f0800000000000000
+      internalID: -823427994651115937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_4"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 776
+        width: 435
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063e18a74b7396300800000000000000
+      internalID: 245788902957376352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_5"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 873
+        width: 463
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb348d5266a82b10800000000000000
+      internalID: 1956996979498433499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_6"
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 991
+        width: 111
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a9dcdac7b79fea0800000000000000
+      internalID: -5838499666487043563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_7"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 662
+        width: 699
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7ab1ea9d8e4df70800000000000000
+      internalID: 9211243159506102210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_8"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 597
+        width: 514
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8ef129bef1998e0800000000000000
+      internalID: -1686281488844199773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_9"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 693
+        width: 215
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6384d7ff023d94c00800000000000000
+      internalID: 885470940433827894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_10"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 806
+        width: 115
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4a1bc4528dce380800000000000000
+      internalID: -8940533505525177110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_11"
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 853
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a469b9465e818e0800000000000000
+      internalID: -1722374637199406466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 768
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17679fdf601a67d90800000000000000
+      internalID: -7100310711100148111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_13"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 606
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4dcd2b095846370800000000000000
+      internalID: 8314917668555379943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_14"
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 85
+        width: 485
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d37dea1a0217b70800000000000000
+      internalID: 8894926617828605342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_15"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 490
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba6db58d768953f0800000000000000
+      internalID: -911549575892997450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_16"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 382
+        width: 454
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336acdc2e589b45e0800000000000000
+      internalID: -1924276885523749325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_17"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 183
+        width: 327
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5394cd2e4df421dc0800000000000000
+      internalID: -3669782970595784395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_18"
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 522
+        width: 156
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb66c3a17bd17cb0800000000000000
+      internalID: -4867868441085318224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_19"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 225
+        width: 57
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec69dd6f51786750800000000000000
+      internalID: 6298408733556436205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_20"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 308
+        width: 56
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29490ea00054143e0800000000000000
+      internalID: -2071298487128910702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_21"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 42
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2428f09cb210b400800000000000000
+      internalID: 337790573148120109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_22"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3
+        width: 87
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90056e19a4fbb580800000000000000
+      internalID: -8810179238823657315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_23"
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 6
+        width: 174
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28b2fefcab642170800000000000000
+      internalID: 8152759616203307054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_24"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 98
+        width: 97
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45b74107a3652160800000000000000
+      internalID: 7000110764749469003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_25"
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 125
+        width: 76
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494573f08723afac0800000000000000
+      internalID: -3820685842637695852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_26"
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 161
+        width: 76
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51dad3dfc6bcf3f0800000000000000
+      internalID: -865616024633159331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_27"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 218
+        width: 53
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41667ee1921acf900800000000000000
+      internalID: 719627238456649236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Finger abdruck wei\xDF_28"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 54
+        width: 144
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a59ddc2eda80d40800000000000000
+      internalID: 5550877730361924217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Finger abdruck wei\xDF_0": -1374189452770235304
+      "Finger abdruck wei\xDF_1": -8762386143920650256
+      "Finger abdruck wei\xDF_10": -8940533505525177110
+      "Finger abdruck wei\xDF_11": -1722374637199406466
+      "Finger abdruck wei\xDF_12": -7100310711100148111
+      "Finger abdruck wei\xDF_13": 8314917668555379943
+      "Finger abdruck wei\xDF_14": 8894926617828605342
+      "Finger abdruck wei\xDF_15": -911549575892997450
+      "Finger abdruck wei\xDF_16": -1924276885523749325
+      "Finger abdruck wei\xDF_17": -3669782970595784395
+      "Finger abdruck wei\xDF_18": -4867868441085318224
+      "Finger abdruck wei\xDF_19": 6298408733556436205
+      "Finger abdruck wei\xDF_2": 3170082702009839305
+      "Finger abdruck wei\xDF_20": -2071298487128910702
+      "Finger abdruck wei\xDF_21": 337790573148120109
+      "Finger abdruck wei\xDF_22": -8810179238823657315
+      "Finger abdruck wei\xDF_23": 8152759616203307054
+      "Finger abdruck wei\xDF_24": 7000110764749469003
+      "Finger abdruck wei\xDF_25": -3820685842637695852
+      "Finger abdruck wei\xDF_26": -865616024633159331
+      "Finger abdruck wei\xDF_27": 719627238456649236
+      "Finger abdruck wei\xDF_28": 5550877730361924217
+      "Finger abdruck wei\xDF_3": -823427994651115937
+      "Finger abdruck wei\xDF_4": 245788902957376352
+      "Finger abdruck wei\xDF_5": 1956996979498433499
+      "Finger abdruck wei\xDF_6": -5838499666487043563
+      "Finger abdruck wei\xDF_7": 9211243159506102210
+      "Finger abdruck wei\xDF_8": -1686281488844199773
+      "Finger abdruck wei\xDF_9": 885470940433827894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

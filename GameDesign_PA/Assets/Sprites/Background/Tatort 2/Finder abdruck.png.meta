@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 2fa006b761a82fc419288ab83c6c5414
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3166472955947648200
+    second: Finder abdruck_0
+  - first:
+      213: 3726834647451447548
+    second: Finder abdruck_1
+  - first:
+      213: -1515402844579037076
+    second: Finder abdruck_2
+  - first:
+      213: 5185105967311805717
+    second: Finder abdruck_3
+  - first:
+      213: -4405594076924316153
+    second: Finder abdruck_4
+  - first:
+      213: 143667613825142324
+    second: Finder abdruck_5
+  - first:
+      213: -4426510331080563759
+    second: Finder abdruck_6
+  - first:
+      213: -218828017615130670
+    second: Finder abdruck_7
+  - first:
+      213: 6469082489074271509
+    second: Finder abdruck_8
+  - first:
+      213: 5244918733488481387
+    second: Finder abdruck_9
+  - first:
+      213: 8051142505087886724
+    second: Finder abdruck_10
+  - first:
+      213: -8060718933601022816
+    second: Finder abdruck_11
+  - first:
+      213: -4491128955916638723
+    second: Finder abdruck_12
+  - first:
+      213: -6491021244903042618
+    second: Finder abdruck_13
+  - first:
+      213: -1994523458666427832
+    second: Finder abdruck_14
+  - first:
+      213: -3938947933694265557
+    second: Finder abdruck_15
+  - first:
+      213: 2304400227498136343
+    second: Finder abdruck_16
+  - first:
+      213: -907674660341923877
+    second: Finder abdruck_17
+  - first:
+      213: 7370399233815054211
+    second: Finder abdruck_18
+  - first:
+      213: -7186500048363524817
+    second: Finder abdruck_19
+  - first:
+      213: 8957778822875337162
+    second: Finder abdruck_20
+  - first:
+      213: 4654101244363318932
+    second: Finder abdruck_21
+  - first:
+      213: -2490766492935239199
+    second: Finder abdruck_22
+  - first:
+      213: 183523548857083831
+    second: Finder abdruck_23
+  - first:
+      213: 2872558101246275210
+    second: Finder abdruck_24
+  - first:
+      213: -4496778787345689756
+    second: Finder abdruck_25
+  - first:
+      213: -7517077734380298823
+    second: Finder abdruck_26
+  - first:
+      213: 3968735697514012067
+    second: Finder abdruck_27
+  - first:
+      213: 2536024566111970859
+    second: Finder abdruck_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Finder abdruck_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 878
+        width: 528
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bfbdd8f9d6e04d0800000000000000
+      internalID: -3166472955947648200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 985
+        width: 456
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf036f1cd5068b330800000000000000
+      internalID: 3726834647451447548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1069
+        width: 310
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60004d442538fae0800000000000000
+      internalID: -1515402844579037076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1060
+        width: 335
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dd068c76235f740800000000000000
+      internalID: 5185105967311805717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 776
+        width: 435
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7067c54678f2cd2c0800000000000000
+      internalID: -4405594076924316153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 873
+        width: 463
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e86cffee86ef100800000000000000
+      internalID: 143667613825142324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_6
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 991
+        width: 111
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3a8597e40e192c0800000000000000
+      internalID: -4426510331080563759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 662
+        width: 699
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfa52fc31196fcf0800000000000000
+      internalID: -218828017615130670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 597
+        width: 514
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515c8f7cf3cc6c950800000000000000
+      internalID: 6469082489074271509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 693
+        width: 215
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b646f51acc1b9c840800000000000000
+      internalID: 5244918733488481387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 806
+        width: 115
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485efcb93776bbf60800000000000000
+      internalID: 8051142505087886724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 853
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac027066d2922090800000000000000
+      internalID: -8060718933601022816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 768
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df52e16720e4ca1c0800000000000000
+      internalID: -4491128955916638723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 606
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c15a0491924be5a0800000000000000
+      internalID: -6491021244903042618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 85
+        width: 485
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a01065b770254e0800000000000000
+      internalID: -1994523458666427832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 490
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27f46749bb0659c0800000000000000
+      internalID: -3938947933694265557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 382
+        width: 454
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7131b543ccfdaff10800000000000000
+      internalID: 2304400227498136343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 183
+        width: 327
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf32ba94ba4763f0800000000000000
+      internalID: -907674660341923877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_18
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 522
+        width: 156
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3878b589d0be84660800000000000000
+      internalID: 7370399233815054211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_19
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 225
+        width: 57
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2de6fe184c644c90800000000000000
+      internalID: -7186500048363524817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_20
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 308
+        width: 56
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1500a016c605c70800000000000000
+      internalID: 8957778822875337162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 42
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496aafa5c60b69040800000000000000
+      internalID: 4654101244363318932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3
+        width: 87
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9462242150f6dd0800000000000000
+      internalID: -2490766492935239199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_23
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 6
+        width: 174
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7ab8102b10c8200800000000000000
+      internalID: 183523548857083831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_24
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 98
+        width: 97
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e6475af506dd720800000000000000
+      internalID: 2872558101246275210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_25
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 125
+        width: 76
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4639fb2948b3891c0800000000000000
+      internalID: -4496778787345689756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_26
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 161
+        width: 76
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd9345b0a9fda790800000000000000
+      internalID: -7517077734380298823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_27
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 218
+        width: 53
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad1cb1f618c31730800000000000000
+      internalID: 3968735697514012067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finder abdruck_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 54
+        width: 144
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26a4cc08e4c13320800000000000000
+      internalID: 2536024566111970859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Finder abdruck_0: -3166472955947648200
+      Finder abdruck_1: 3726834647451447548
+      Finder abdruck_10: 8051142505087886724
+      Finder abdruck_11: -8060718933601022816
+      Finder abdruck_12: -4491128955916638723
+      Finder abdruck_13: -6491021244903042618
+      Finder abdruck_14: -1994523458666427832
+      Finder abdruck_15: -3938947933694265557
+      Finder abdruck_16: 2304400227498136343
+      Finder abdruck_17: -907674660341923877
+      Finder abdruck_18: 7370399233815054211
+      Finder abdruck_19: -7186500048363524817
+      Finder abdruck_2: -1515402844579037076
+      Finder abdruck_20: 8957778822875337162
+      Finder abdruck_21: 4654101244363318932
+      Finder abdruck_22: -2490766492935239199
+      Finder abdruck_23: 183523548857083831
+      Finder abdruck_24: 2872558101246275210
+      Finder abdruck_25: -4496778787345689756
+      Finder abdruck_26: -7517077734380298823
+      Finder abdruck_27: 3968735697514012067
+      Finder abdruck_28: 2536024566111970859
+      Finder abdruck_3: 5185105967311805717
+      Finder abdruck_4: -4405594076924316153
+      Finder abdruck_5: 143667613825142324
+      Finder abdruck_6: -4426510331080563759
+      Finder abdruck_7: -218828017615130670
+      Finder abdruck_8: 6469082489074271509
+      Finder abdruck_9: 5244918733488481387
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
