@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e1543d9c6c67e91429bbd5095ac2e495
+guid: d25e4329ee64af74a8c5338a355b73ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3131389091842063491
-    second: "SchubladeAuswei\xDF_002_0"
+      213: 8225971472482607152
+    second: Controlls_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "SchubladeAuswei\xDF_002_0"
+      name: Controlls_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 9
-        width: 162
-        height: 227
+        x: 1
+        y: 0
+        width: 964
+        height: 383
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d73883736321b84d0800000000000000
-      internalID: -3131389091842063491
+      spriteID: 030a2dd9875882270800000000000000
+      internalID: 8225971472482607152
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "SchubladeAuswei\xDF_002_0": -3131389091842063491
+      Controlls_0: 8225971472482607152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

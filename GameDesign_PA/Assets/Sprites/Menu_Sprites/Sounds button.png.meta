@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 356cf53516ed22a4eab7718d1a38fe36
+guid: 3d3222f82e014a44c8d9b79717f7e37a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5143774560829939779
-    second: "Backround men\xFC_0"
+      213: -3760531885530096209
+    second: Sounds button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Backround men\xFC_0"
+      name: Sounds button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3840
-        height: 2160
+        x: 41
+        y: 29
+        width: 915
+        height: 354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 340a5fec5bb526740800000000000000
-      internalID: 5143774560829939779
+      spriteID: fadd27c9c28efcbc0800000000000000
+      internalID: -3760531885530096209
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Backround men\xFC_0": 5143774560829939779
+      Sounds button_0: -3760531885530096209
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

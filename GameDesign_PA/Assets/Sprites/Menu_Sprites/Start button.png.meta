@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 645b2541d5519eb4684c8a70b8c215a8
+guid: f1abd9b11d20e0342ac4befec2fa361e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5421872573110903762
-    second: Backround_0
+      213: 147159259431284069
+    second: Start button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Backround_0
+      name: Start button_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 2480
-        height: 2000
+        width: 691
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2c9a4efe93a1c4b0800000000000000
-      internalID: -5421872573110903762
+      spriteID: 56dafc71190da0200800000000000000
+      internalID: 147159259431284069
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Backround_0: -5421872573110903762
+      Start button_0: 147159259431284069
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

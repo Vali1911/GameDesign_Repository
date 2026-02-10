@@ -1094,6 +1094,7 @@ GameObject:
   - component: {fileID: 217456394}
   - component: {fileID: 217456395}
   - component: {fileID: 217456396}
+  - component: {fileID: 217456397}
   m_Layer: 0
   m_Name: Interactive_Alarmclock
   m_TagString: Untagged
@@ -1117,7 +1118,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.687}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.37, y: 1.66}
+  m_AnchoredPosition: {x: 0.37, y: 1.53}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &217456395
@@ -1224,6 +1225,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.251913, y: 3.362392}
   m_EdgeRadius: 0
+--- !u!114 &217456397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217456393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9306588506b3a6449b1f3870732db17e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  ringScript: {fileID: 0}
 --- !u!1 &220246241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,8 +2457,8 @@ Transform:
   m_GameObject: {fileID: 463353896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.52, y: -6.67, z: 0}
-  m_LocalScale: {x: 0.379066, y: 0.379066, z: 0.379066}
+  m_LocalPosition: {x: -8.662, y: -6.8288, z: 0}
+  m_LocalScale: {x: 0.38896775, y: 0.39945567, z: 0.38137832}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 314175627}
@@ -4856,7 +4870,7 @@ Transform:
   m_GameObject: {fileID: 1060553720}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.3, y: -0.59, z: 0}
+  m_LocalPosition: {x: -1.75, y: 1.04, z: 0}
   m_LocalScale: {x: 0.37996623, y: 0.3777, z: 0.3777}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6756,6 +6770,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1513100305}
+  - component: {fileID: 1513100309}
+  - component: {fileID: 1513100310}
   m_Layer: 0
   m_Name: MiniGames
   m_TagString: Untagged
@@ -6779,6 +6795,71 @@ Transform:
   - {fileID: 2105337268}
   m_Father: {fileID: 1105473474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1513100309
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513100304}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -3.9918692, y: -0.08386278}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.7044482, y: 3.88488}
+  m_EdgeRadius: 0
+--- !u!114 &1513100310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513100304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96e7703886a47741ba3d7df769b8ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  clockVisual: {fileID: 217456394}
+  playerTag: Player
+  interactKey: 102
+  shakeTime: 0.35
+  restTime: 0.25
+  speed: 70
+  angle: 14
 --- !u!1 &1561961400
 GameObject:
   m_ObjectHideFlags: 0
