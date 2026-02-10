@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 240
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,12 +116,12 @@ TextureImporter:
       name: "T\xFCr Klinke_0"
       rect:
         serializedVersion: 2
-        x: 595
-        y: 215
-        width: 2992
-        height: 1859
+        x: 1367
+        y: 823
+        width: 1245
+        height: 732
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "T\xFCr Klinke_1"
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1875
+        width: 161
+        height: 123
+      alignment: 9
+      pivot: {x: 0.71892023, y: 0.7934374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37134b43d3e815f46a601f8bfe88fa27
+      internalID: -1216081381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e5e3f4f49b5a4e844813e67191ddb2c3
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +171,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       "T\xFCr Klinke_0": 5555897527431595991
+      "T\xFCr Klinke_1": -1216081381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
