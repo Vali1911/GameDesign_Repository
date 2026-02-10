@@ -7,19 +7,11 @@ public class BulletsInteraction : MonoBehaviour
     // Referenzen
     // =========================
 
-    // Interaktions-Icon (Ausrufezeichen)
-    public GameObject interactionIcon;
-
-    // Evidence Bag (Zielbereich)
-    public Collider2D evidenceBag;
-
-    // Alle Bullet-Objekte
-    public BulletDrag[] bullets;
-
-    // Player
+    public GameObject interactionIcon;      // Icon_Bullets
+    public Collider2D evidenceBag;           // Evidence Bag Collider
+    public BulletDrag[] bullets;             // Alle Bullet-Objekte
     public PlayerMovement player;
 
-    // Wird ausgelˆst, wenn ALLE Bullets eingesammelt wurden
     public UnityEvent OnInteractionCompleted;
 
     // =========================
@@ -27,30 +19,47 @@ public class BulletsInteraction : MonoBehaviour
     // =========================
 
     private bool isInteracting = false;
+    private bool interactionCompleted = false;
     private int bulletsCollected = 0;
 
     // =========================
     // Start der Interaktion
-    // (vom InteractiveObject aufgerufen)
     // =========================
 
     public void StartInteraction()
     {
-        if (isInteracting)
+        // Wenn bereits abgeschlossen -> nichts mehr tun
+        if (interactionCompleted)
             return;
 
+        // Wenn Panel offen ist -> F schlieﬂt es
+        if (isInteracting)
+        {
+            ClosePanel();
+            return;
+        }
+
+        // Panel ˆffnen
         isInteracting = true;
-
-        // Player einfrieren (wie AlarmClock / BodyOutline)
         player.isInteracting = true;
-
-        // Panel anzeigen
         gameObject.SetActive(true);
 
-        // Alle Bullets initialisieren
+        // Bullets initialisieren (nur die noch nicht eingesammelten)
         foreach (var bullet in bullets)
         {
             bullet.Init(this, evidenceBag);
+        }
+    }
+
+    void Update()
+    {
+        if (!isInteracting)
+            return;
+
+        // F schlieﬂt das Panel (ohne Erfolg)
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            ClosePanel();
         }
     }
 
@@ -69,21 +78,33 @@ public class BulletsInteraction : MonoBehaviour
     }
 
     // =========================
-    // Interaktion erfolgreich beenden
+    // Panel schlieﬂen (ohne Erfolg)
+    // =========================
+
+    private void ClosePanel()
+    {
+        isInteracting = false;
+        player.isInteracting = false;
+        gameObject.SetActive(false);
+    }
+
+    // =========================
+    // Erfolgreich abgeschlossen
     // =========================
 
     private void CompleteInteraction()
     {
+        interactionCompleted = true;
         isInteracting = false;
 
         // Player freigeben
         player.isInteracting = false;
 
-        // Icon deaktivieren (JETZT erst!)
+        // Icon deaktivieren
         if (interactionIcon != null)
             interactionIcon.SetActive(false);
 
-        // Fortschritt melden
+        // Progression melden
         OnInteractionCompleted?.Invoke();
 
         // Panel ausblenden

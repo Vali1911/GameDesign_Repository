@@ -3,8 +3,8 @@ using UnityEngine.Events;
 
 public class BodyOutlineInteraction : MonoBehaviour
 {
-    public GameObject bodyOutline;
-    public GameObject interactionIcon;
+    public GameObject bodyOutline;          // NUR das Outline-Sprite
+    public GameObject interactionIcon;      // Icon_BodyOutline
     public PlayerMovement player;
 
     public UnityEvent OnInteractionCompleted;
@@ -20,22 +20,15 @@ public class BodyOutlineInteraction : MonoBehaviour
 
         isInteracting = true;
 
-        // Player einfrieren (identisch zur AlarmClock)
+        // Player einfrieren (AlarmClock-Logik)
         player.isInteracting = true;
 
         // Panel aktivieren
         gameObject.SetActive(true);
 
-        // Body Outline anzeigen
+        // Outline anzeigen
         if (bodyOutline != null)
             bodyOutline.SetActive(true);
-
-        // Fortschritt nur EINMAL melden
-        if (!hasBeenInvestigated)
-        {
-            hasBeenInvestigated = true;
-            OnInteractionCompleted?.Invoke();
-        }
     }
 
     void Update()
@@ -43,7 +36,7 @@ public class BodyOutlineInteraction : MonoBehaviour
         if (!isInteracting)
             return;
 
-        // F toggelt Body Outline
+        // F toggelt Outline
         if (Input.GetKeyDown(KeyCode.F))
         {
             ToggleBodyOutline();
@@ -55,8 +48,7 @@ public class BodyOutlineInteraction : MonoBehaviour
         if (bodyOutline == null)
             return;
 
-        bool active = bodyOutline.activeSelf;
-        bodyOutline.SetActive(!active);
+        bodyOutline.SetActive(!bodyOutline.activeSelf);
 
         // Wenn ausgeblendet → Interaktion beenden
         if (!bodyOutline.activeSelf)
@@ -72,7 +64,14 @@ public class BodyOutlineInteraction : MonoBehaviour
         // Player freigeben
         player.isInteracting = false;
 
-        // JETZT erst Icon deaktivieren (wie bei AlarmClock)
+        // Progression NUR EINMAL melden
+        if (!hasBeenInvestigated)
+        {
+            hasBeenInvestigated = true;
+            OnInteractionCompleted?.Invoke();
+        }
+
+        // Icon ausblenden
         if (interactionIcon != null)
             interactionIcon.SetActive(false);
 
