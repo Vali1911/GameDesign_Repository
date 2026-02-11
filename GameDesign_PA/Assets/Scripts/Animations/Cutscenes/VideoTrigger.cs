@@ -56,38 +56,38 @@ public class VideoTrigger : MonoBehaviour
             ? Camera.main.GetComponent<CameraFollow>()
             : null;
 
-        // =========================
+       
         // PLAYER EINFRIEREN
-        // =========================
+
 
         if (movement != null) movement.enabled = false;
         if (rb != null) rb.linearVelocity = Vector2.zero;
         if (animator != null) animator.enabled = false;
 
-        // =========================
+        
         // FADE TO BLACK
-        // =========================
+       
 
         if (screenFade != null)
             yield return screenFade.FadeOut();
 
-        // =========================
+        
         // KAMERA UMSCHALTEN
-        // =========================
+        
 
         if (camFollow != null && cameraFocusTarget != null)
             camFollow.SetTarget(cameraFocusTarget);
 
-        // =========================
+        
         // PLAYER TELEPORTIEREN
-        // =========================
+        
 
         if (spawnPoint != null)
             playerCollider.transform.position = spawnPoint.position;
 
-        // =========================
+        
         // ANDERE VIDEOS STOPPEN
-        // =========================
+        
 
         if (videoPlayer != null)
         {
@@ -99,9 +99,9 @@ public class VideoTrigger : MonoBehaviour
             }
         }
 
-        // =========================
+        
         // CUTSCENE STARTEN
-        // =========================
+        
 
         // Wichtig fuer Poster-Frame Setup:
         // - sicherstellen, dass das Video von vorne startet
@@ -112,36 +112,36 @@ public class VideoTrigger : MonoBehaviour
             videoPlayer.Play();
         }
 
-        // =========================
+       
         // FADE IN
-        // =========================
+       
 
         if (screenFade != null)
             yield return screenFade.FadeIn();
 
-        // =========================
+        
         // CUTSCENE-ZEIT
-        // =========================
+        
 
         yield return new WaitForSeconds(freezeAfterFadeTime);
 
-        // =========================
+        
         // KAMERA ZURUECK ZUM PLAYER
-        // =========================
+        
 
         if (camFollow != null)
             camFollow.SetTarget(playerCollider.transform);
 
-        // =========================
+        
         // PLAYER WIEDER FREIGEBEN
-        // =========================
+        
 
         if (animator != null) animator.enabled = true;
         if (movement != null) movement.enabled = true;
 
-        // =========================
+       
         // TRIGGER DEAKTIVIEREN
-        // =========================
+        
 
         Collider2D col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;

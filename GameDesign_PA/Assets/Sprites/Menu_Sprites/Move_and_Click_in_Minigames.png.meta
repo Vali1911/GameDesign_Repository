@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: a99786c089afc114680224682642e667
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3875128991847496875
+    second: Move_and_Click_in_Minigames_0
+  - first:
+      213: -8721516088290268351
+    second: Move_and_Click_in_Minigames_1
+  - first:
+      213: 5592169690783796694
+    second: Move_and_Click_in_Minigames_2
+  - first:
+      213: -3428599735049672489
+    second: Move_and_Click_in_Minigames_3
+  - first:
+      213: 2857872031130397055
+    second: Move_and_Click_in_Minigames_4
+  - first:
+      213: 8692027412814659883
+    second: Move_and_Click_in_Minigames_5
+  - first:
+      213: 4576581250514945189
+    second: Move_and_Click_in_Minigames_6
+  - first:
+      213: -6173137506202832282
+    second: Move_and_Click_in_Minigames_7
+  - first:
+      213: -8384406117944211649
+    second: Move_and_Click_in_Minigames_8
+  - first:
+      213: 1765092891460410303
+    second: Move_and_Click_in_Minigames_9
+  - first:
+      213: -4945523683252893612
+    second: Move_and_Click_in_Minigames_10
+  - first:
+      213: -4088688362194720347
+    second: Move_and_Click_in_Minigames_11
+  - first:
+      213: -5246502804389295633
+    second: Move_and_Click_in_Minigames_12
+  - first:
+      213: -3424255864131517239
+    second: Move_and_Click_in_Minigames_13
+  - first:
+      213: 8859084057997651527
+    second: Move_and_Click_in_Minigames_14
+  - first:
+      213: -5661677624709657738
+    second: Move_and_Click_in_Minigames_15
+  - first:
+      213: 7793887564026394635
+    second: Move_and_Click_in_Minigames_16
+  - first:
+      213: -1760463699293260425
+    second: Move_and_Click_in_Minigames_17
+  - first:
+      213: -3545926840194043474
+    second: Move_and_Click_in_Minigames_18
+  - first:
+      213: 227382006575472529
+    second: Move_and_Click_in_Minigames_19
+  - first:
+      213: 1829402373814407809
+    second: Move_and_Click_in_Minigames_20
+  - first:
+      213: 1797135830783732725
+    second: Move_and_Click_in_Minigames_21
+  - first:
+      213: -4144431587066793530
+    second: Move_and_Click_in_Minigames_22
+  - first:
+      213: -4156220105583232107
+    second: Move_and_Click_in_Minigames_23
+  - first:
+      213: -697168468911740259
+    second: Move_and_Click_in_Minigames_24
+  - first:
+      213: 7240934989200100545
+    second: Move_and_Click_in_Minigames_25
+  - first:
+      213: 2451935260612958171
+    second: Move_and_Click_in_Minigames_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 49
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553cc1696b6c83ac0800000000000000
+      internalID: -3875128991847496875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_1
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 53
+        width: 99
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14baa968353f6f680800000000000000
+      internalID: -8721516088290268351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_2
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 53
+        width: 25
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddcfd684b06b9d40800000000000000
+      internalID: 5592169690783796694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_3
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 178
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8ad5bd4ba2b60d0800000000000000
+      internalID: -3428599735049672489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_4
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 54
+        width: 90
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f792d0d787339a720800000000000000
+      internalID: 2857872031130397055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_5
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 178
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2186ce21e840a870800000000000000
+      internalID: 8692027412814659883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_6
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 178
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a408aa4668438f30800000000000000
+      internalID: 4576581250514945189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_7
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 178
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662b321152c945aa0800000000000000
+      internalID: -6173137506202832282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 51
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37c257ee0b94ab80800000000000000
+      internalID: -8384406117944211649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_9
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 54
+        width: 90
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb901702aede7810800000000000000
+      internalID: 1765092891460410303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_10
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 53
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4580e6f9968fd5bb0800000000000000
+      internalID: -4945523683252893612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 51
+        width: 95
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a92c1ee89f0247c0800000000000000
+      internalID: -4088688362194720347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_12
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 50
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9094f1f7da037b0800000000000000
+      internalID: -5246502804389295633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_13
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 51
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4846e1f699a70d0800000000000000
+      internalID: -3424255864131517239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_14
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 57
+        width: 23
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ea648630ac1fa70800000000000000
+      internalID: 8859084057997651527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_15
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 51
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b476a723ead61b0800000000000000
+      internalID: -5661677624709657738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_16
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 57
+        width: 23
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08b0291273792c60800000000000000
+      internalID: 7793887564026394635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_17
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 50
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775b7a3c7939197e0800000000000000
+      internalID: -1760463699293260425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_18
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 46
+        width: 136
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1f5b273565acec0800000000000000
+      internalID: -3545926840194043474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_19
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 57
+        width: 23
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f1f32fab2d72300800000000000000
+      internalID: 227382006575472529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_20
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 50
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182d67234c7536910800000000000000
+      internalID: 1829402373814407809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_21
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 57
+        width: 23
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbadf63485b0f810800000000000000
+      internalID: 1797135830783732725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_22
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 4
+        width: 94
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1b9f00e650c76c0800000000000000
+      internalID: -4144431587066793530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_23
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 51
+        width: 95
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bff56a5d32256c0800000000000000
+      internalID: -4156220105583232107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_24
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 46
+        width: 136
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aa9e5a8f82356f0800000000000000
+      internalID: -697168468911740259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_25
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 53
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc08f03208fc7460800000000000000
+      internalID: 7240934989200100545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_and_Click_in_Minigames_26
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 51
+        width: 87
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7171de026070220800000000000000
+      internalID: 2451935260612958171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Move_and_Click_in_Minigames_0: -3875128991847496875
+      Move_and_Click_in_Minigames_1: -8721516088290268351
+      Move_and_Click_in_Minigames_10: -4945523683252893612
+      Move_and_Click_in_Minigames_11: -4088688362194720347
+      Move_and_Click_in_Minigames_12: -5246502804389295633
+      Move_and_Click_in_Minigames_13: -3424255864131517239
+      Move_and_Click_in_Minigames_14: 8859084057997651527
+      Move_and_Click_in_Minigames_15: -5661677624709657738
+      Move_and_Click_in_Minigames_16: 7793887564026394635
+      Move_and_Click_in_Minigames_17: -1760463699293260425
+      Move_and_Click_in_Minigames_18: -3545926840194043474
+      Move_and_Click_in_Minigames_19: 227382006575472529
+      Move_and_Click_in_Minigames_2: 5592169690783796694
+      Move_and_Click_in_Minigames_20: 1829402373814407809
+      Move_and_Click_in_Minigames_21: 1797135830783732725
+      Move_and_Click_in_Minigames_22: -4144431587066793530
+      Move_and_Click_in_Minigames_23: -4156220105583232107
+      Move_and_Click_in_Minigames_24: -697168468911740259
+      Move_and_Click_in_Minigames_25: 7240934989200100545
+      Move_and_Click_in_Minigames_26: 2451935260612958171
+      Move_and_Click_in_Minigames_3: -3428599735049672489
+      Move_and_Click_in_Minigames_4: 2857872031130397055
+      Move_and_Click_in_Minigames_5: 8692027412814659883
+      Move_and_Click_in_Minigames_6: 4576581250514945189
+      Move_and_Click_in_Minigames_7: -6173137506202832282
+      Move_and_Click_in_Minigames_8: -8384406117944211649
+      Move_and_Click_in_Minigames_9: 1765092891460410303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

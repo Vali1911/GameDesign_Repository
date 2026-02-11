@@ -61,7 +61,7 @@ public class AlarmClockAutoRing : MonoBehaviour
         }
     }
 
-    // ---- Trigger ----
+    //  Trigger 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag(playerTag))
@@ -74,7 +74,7 @@ public class AlarmClockAutoRing : MonoBehaviour
             playerInRange = false;
     }
 
-    // ---- Von der Uhr per Klick aufrufbar ----
+    //  Von der Uhr per Klick aufrufbar 
     public void StopRingingExternally()
     {
         hasActivated = false;
