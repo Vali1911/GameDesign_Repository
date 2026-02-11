@@ -3,44 +3,51 @@ using System.Collections;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    // Zeit, wie lange der Pfeil sichtbar ist
+    // Dauer, wie lange der Pfeil sichtbar bleibt
     public float visibleTime = 0.5f;
 
-    // Zeit, wie lange der Pfeil unsichtbar ist
+    // Dauer, wie lange der Pfeil ausgeblendet bleibt
     public float hiddenTime = 0.5f;
 
+    // Referenz auf den SpriteRenderer des Pfeils
     private SpriteRenderer spriteRenderer;
+
+    // Speichert die aktuell laufende Coroutine
     private Coroutine blinkRoutine;
 
     void Awake()
     {
+        // SpriteRenderer beim Start zwischenspeichern
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void OnEnable()
     {
-        // Startet das Blinken, sobald das Objekt aktiv wird
+        // Blinken starten, sobald das Objekt aktiviert wird
         blinkRoutine = StartCoroutine(Blink());
     }
 
     void OnDisable()
     {
-        // Stoppt das Blinken, wenn das Objekt deaktiviert wird
+        // Laufende Blink-Coroutine stoppen
         if (blinkRoutine != null)
             StopCoroutine(blinkRoutine);
 
-        // Sicherheit: Pfeil ausblenden
+        // Sicherheitshalber Sprite ausblenden
         if (spriteRenderer != null)
             spriteRenderer.enabled = false;
     }
 
+    // Coroutine für das periodische Ein- und Ausblenden
     IEnumerator Blink()
     {
         while (true)
         {
+            // Pfeil sichtbar machen
             spriteRenderer.enabled = true;
             yield return new WaitForSeconds(visibleTime);
 
+            // Pfeil ausblenden
             spriteRenderer.enabled = false;
             yield return new WaitForSeconds(hiddenTime);
         }

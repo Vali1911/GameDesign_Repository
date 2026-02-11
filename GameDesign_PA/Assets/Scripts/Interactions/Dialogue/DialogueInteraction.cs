@@ -1,53 +1,84 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 public class DialogueInteraction : MonoBehaviour
 {
-    [Header("Core")]
+    // Referenz auf den Player für Freeze-Logik
     public PlayerMovement player;
+
+    // Icon, das den Dialog auslöst
     public GameObject interactionIcon;
 
-    [Header("Dialogue")]
-    public GameObject[] dialogueBubbles; // Reihenfolge im Inspector!
-    private int currentIndex = 0;
+    // Alle Sprechblasen in korrekter Reihenfolge
+    public GameObject[] dialogueBubbles;
 
-    [Header("Events")]
+    // Event für Progression nach abgeschlossenem Dialog
     public UnityEvent OnDialogueCompleted;
 
+    // Aktueller Index der angezeigten Sprechblase
+    private int currentIndex = 0;
+
+    // Gibt an, ob der Dialog aktuell läuft
     private bool isInteracting = false;
+
+    // Verhindert mehrfaches Abschließen des Dialogs
     private bool completed = false;
 
-    // Wird vom InteractiveObject aufgerufen
+    // Verhindert, dass der Start-Input direkt weiterblättert
+    private bool canAdvance = false;
+
+    // Wird vom InteractiveObject aufgerufen, wenn F im Icon gedrückt wird
     public void StartDialogue()
     {
+        // Dialog nicht erneut starten, wenn bereits abgeschlossen oder aktiv
         if (completed || isInteracting)
             return;
 
         isInteracting = true;
+
+        // Player einfrieren
         player.isInteracting = true;
 
+        currentIndex = 0;
+
+        // Panel aktivieren und erste Sprechblase anzeigen
         gameObject.SetActive(true);
-        ShowBubble(0);
+        ShowBubble(currentIndex);
+
+        // Einen Frame warten, bevor Weiterklicken erlaubt ist
+        canAdvance = false;
+        StartCoroutine(EnableAdvanceNextFrame());
+    }
+
+    // Aktiviert das Weiterblättern im nächsten Frame
+    private IEnumerator EnableAdvanceNextFrame()
+    {
+        yield return null;
+        canAdvance = true;
     }
 
     void Update()
     {
+        // Eingabe nur erlauben, wenn Dialog aktiv ist
         if (!isInteracting)
             return;
 
-        if (Input.GetKeyDown(KeyCode.F))
+        // Mit F zur nächsten Sprechblase wechseln
+        if (canAdvance && Input.GetKeyDown(KeyCode.F))
         {
             AdvanceDialogue();
         }
     }
 
+    // Blendet aktuelle Bubble aus und zeigt die nächste an
     private void AdvanceDialogue()
     {
-        // Aktuelle Bubble ausblenden
         dialogueBubbles[currentIndex].SetActive(false);
+
         currentIndex++;
 
-        // Gibt es noch eine nächste?
+        // Wenn noch Bubbles vorhanden sind -> nächste anzeigen
         if (currentIndex < dialogueBubbles.Length)
         {
             ShowBubble(currentIndex);
@@ -58,25 +89,30 @@ public class DialogueInteraction : MonoBehaviour
         }
     }
 
+    // Aktiviert eine bestimmte Sprechblase
     private void ShowBubble(int index)
     {
-        dialogueBubbles[index].SetActive(true);
+        if (dialogueBubbles[index] != null)
+            dialogueBubbles[index].SetActive(true);
     }
 
+    // Beendet den Dialog vollständig
     private void CompleteDialogue()
     {
-        completed = true;
         isInteracting = false;
+        completed = true;
 
+        // Player wieder freigeben
         player.isInteracting = false;
 
         // Progression melden
         OnDialogueCompleted?.Invoke();
 
-        // Icon ausblenden
+        // Icon dauerhaft deaktivieren
         if (interactionIcon != null)
             interactionIcon.SetActive(false);
 
         gameObject.SetActive(false);
     }
 }
+

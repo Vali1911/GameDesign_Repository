@@ -3,27 +3,37 @@ using UnityEngine.Events;
 
 public class BodyOutlineInteraction : MonoBehaviour
 {
-    public GameObject bodyOutline;          // NUR das Outline-Sprite
-    public GameObject interactionIcon;      // Icon_BodyOutline
+    // Referenz auf das Outline-Sprite der Leiche
+    public GameObject bodyOutline;
+
+    // Icon, das die Interaktion auslöst
+    public GameObject interactionIcon;
+
+    // Referenz auf den Player (für Freeze-Logik)
     public PlayerMovement player;
 
+    // Event für Progression (PanelBarrierController etc.)
     public UnityEvent OnInteractionCompleted;
 
+    // Gibt an, ob sich der Spieler aktuell in der Interaktion befindet
     private bool isInteracting = false;
+
+    // Verhindert mehrfaches Melden des Fortschritts
     private bool hasBeenInvestigated = false;
 
-    // Wird vom InteractiveObject aufgerufen
+    // Startet die Interaktion (wird vom InteractiveObject aufgerufen)
     public void StartInteraction()
     {
+        // Verhindert mehrfaches Starten
         if (isInteracting)
             return;
 
         isInteracting = true;
 
-        // Player einfrieren (AlarmClock-Logik)
+        // Player einfrieren (Bewegung + Animation stoppen)
         player.isInteracting = true;
 
-        // Panel aktivieren
+        // Panel sichtbar machen
         gameObject.SetActive(true);
 
         // Outline anzeigen
@@ -33,16 +43,18 @@ public class BodyOutlineInteraction : MonoBehaviour
 
     void Update()
     {
+        // Eingabe nur während aktiver Interaktion erlauben
         if (!isInteracting)
             return;
 
-        // F toggelt Outline
+        // Mit F wird das Outline ein- bzw. ausgeblendet
         if (Input.GetKeyDown(KeyCode.F))
         {
             ToggleBodyOutline();
         }
     }
 
+    // Schaltet das Outline an oder aus
     private void ToggleBodyOutline()
     {
         if (bodyOutline == null)
@@ -50,28 +62,29 @@ public class BodyOutlineInteraction : MonoBehaviour
 
         bodyOutline.SetActive(!bodyOutline.activeSelf);
 
-        // Wenn ausgeblendet → Interaktion beenden
+        // Wenn Outline ausgeblendet wird → Interaktion beenden
         if (!bodyOutline.activeSelf)
         {
             EndInteraction();
         }
     }
 
+    // Beendet die Interaktion vollständig
     private void EndInteraction()
     {
         isInteracting = false;
 
-        // Player freigeben
+        // Player wieder freigeben
         player.isInteracting = false;
 
-        // Progression NUR EINMAL melden
+        // Fortschritt nur beim ersten erfolgreichen Untersuchen melden
         if (!hasBeenInvestigated)
         {
             hasBeenInvestigated = true;
             OnInteractionCompleted?.Invoke();
         }
 
-        // Icon ausblenden
+        // Icon dauerhaft deaktivieren
         if (interactionIcon != null)
             interactionIcon.SetActive(false);
 

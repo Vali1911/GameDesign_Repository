@@ -3,47 +3,66 @@ using UnityEngine.Events;
 
 public class FingerPrintsInteraction : MonoBehaviour
 {
-    [Header("Core References")]
+    // Referenz auf den Player für Freeze-Logik
     public PlayerMovement player;
+
+    // Icon, das die Interaktion startet
     public GameObject interactionIcon;
 
-    [Header("Objects")]
+    // Interaktive Objekte im Minigame
     public GameObject powder;
     public GameObject tape;
     public GameObject evidenceBag;
 
-    [Header("Fingerprint")]
+    // SpriteRenderer des Fingerabdrucks
     public SpriteRenderer fingerprintRenderer;
+
+    // Ursprüngliches und freigelegtes Fingerprint-Sprite
     public Sprite fingerprintNormal;
     public Sprite fingerprintRevealed;
 
-    [Header("Attach Fingerprint To Tape")]
+    // Offset-Position des Fingerprints relativ zum Tape
     public Vector3 fingerprintOffsetOnTape;
+
+    // Sorting Order, damit der Fingerprint sichtbar über dem Tape liegt
     public int fingerprintSortingOrderOnTape = 5;
 
-    [Header("Events")]
+    // Event für Progression nach erfolgreichem Abschluss
     public UnityEvent OnInteractionCompleted;
 
+    // Gibt an, ob das Panel aktuell aktiv ist
     private bool isInteracting = false;
+
+    // Status, ob Powder bereits verwendet wurde
     private bool powderUsed = false;
+
+    // Status, ob Tape bereits korrekt platziert wurde
     private bool tapeUsed = false;
+
+    // Verhindert mehrfaches Abschließen
     private bool completed = false;
 
+    // Aktuell gezogenes Objekt
     private GameObject draggedObject;
+
+    // Offset zwischen Mausposition und Objekt beim Ziehen
     private Vector3 dragOffset;
 
     // Wird vom InteractiveObject aufgerufen
     public void StartInteraction()
     {
+        // Keine erneute Interaktion, wenn bereits aktiv oder abgeschlossen
         if (isInteracting || completed)
             return;
 
         isInteracting = true;
+
+        // Player einfrieren
         player.isInteracting = true;
 
         gameObject.SetActive(true);
 
-        // ✅ Zustand wiederherstellen
+        // Zustand beim erneuten Öffnen wiederherstellen
         if (tapeUsed)
         {
             evidenceBag.SetActive(true);
@@ -56,24 +75,23 @@ public class FingerPrintsInteraction : MonoBehaviour
 
     void Update()
     {
+        // Eingaben nur erlauben, wenn Interaktion aktiv ist
         if (!isInteracting)
             return;
 
         HandleDrag();
 
-        // F → Interaction abbrechen
+        // Mit F Interaktion abbrechen (kein Erfolg)
         if (Input.GetKeyDown(KeyCode.F))
         {
             EndInteraction(false);
         }
     }
 
-    // =========================
-    // DRAG & DROP
-    // =========================
-
+    // Verarbeitet Maus-Input für Drag & Drop
     private void HandleDrag()
     {
+        // Start des Ziehens
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -86,12 +104,14 @@ public class FingerPrintsInteraction : MonoBehaviour
             }
         }
 
+        // Objekt folgt der Maus
         if (Input.GetMouseButton(0) && draggedObject != null)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             draggedObject.transform.position = mousePos + (Vector2)dragOffset;
         }
 
+        // Ende des Ziehens -> Drop prüfen
         if (Input.GetMouseButtonUp(0) && draggedObject != null)
         {
             CheckDrop(draggedObject);
@@ -99,19 +119,22 @@ public class FingerPrintsInteraction : MonoBehaviour
         }
     }
 
+    // Prüft, ob ein Objekt korrekt abgelegt wurde
     private void CheckDrop(GameObject obj)
     {
-        // POWDER → Fingerprint
+        // Powder auf Fingerprint
         if (obj == powder && !powderUsed && IsOverFingerprint(obj))
         {
             powderUsed = true;
 
+            // Fingerprint sichtbar machen
             fingerprintRenderer.sprite = fingerprintRevealed;
+
             powder.SetActive(false);
             return;
         }
 
-        // TAPE → Fingerprint (nur nach Powder)
+        // Tape auf Fingerprint (nur nach Powder)
         if (obj == tape && powderUsed && !tapeUsed && IsOverFingerprint(obj))
         {
             tapeUsed = true;
@@ -121,17 +144,14 @@ public class FingerPrintsInteraction : MonoBehaviour
             return;
         }
 
-        // TAPE (+ Fingerprint) → EvidenceBag
+        // Tape mit Fingerprint in EvidenceBag
         if (obj == tape && tapeUsed && IsOverEvidenceBag(obj))
         {
             CompleteInteraction();
         }
     }
 
-    // =========================
-    // HELPERS
-    // =========================
-
+    // Prüft, ob ein Objekt nahe genug am Fingerprint ist
     private bool IsOverFingerprint(GameObject obj)
     {
         return Vector2.Distance(
@@ -140,6 +160,7 @@ public class FingerPrintsInteraction : MonoBehaviour
         ) < 0.5f;
     }
 
+    // Prüft, ob ein Objekt nahe genug an der EvidenceBag ist
     private bool IsOverEvidenceBag(GameObject obj)
     {
         return Vector2.Distance(
@@ -148,6 +169,7 @@ public class FingerPrintsInteraction : MonoBehaviour
         ) < 0.5f;
     }
 
+    // Verbindet den Fingerprint visuell mit dem Tape
     private void AttachFingerprintToTape()
     {
         fingerprintRenderer.transform.SetParent(tape.transform);
@@ -155,10 +177,7 @@ public class FingerPrintsInteraction : MonoBehaviour
         fingerprintRenderer.sortingOrder = fingerprintSortingOrderOnTape;
     }
 
-    // =========================
-    // END / COMPLETE
-    // =========================
-
+    // Erfolgreicher Abschluss des Minigames
     private void CompleteInteraction()
     {
         completed = true;
@@ -167,11 +186,15 @@ public class FingerPrintsInteraction : MonoBehaviour
         EndInteraction(true);
     }
 
+    // Beendet die Interaktion
     private void EndInteraction(bool success)
     {
         isInteracting = false;
+
+        // Player wieder freigeben
         player.isInteracting = false;
 
+        // Icon nur bei Erfolg deaktivieren
         if (success && interactionIcon != null)
             interactionIcon.SetActive(false);
 

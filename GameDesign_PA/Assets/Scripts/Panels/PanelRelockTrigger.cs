@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PanelRelockTrigger : MonoBehaviour
 {
-    // Der Collider, der den Rückweg blockiert (RightWall_Panel_5)
+    // Der Collider, der den Rückweg blockiert
     public Collider2D barrierCollider;
 
     // Der Pfeil, der wieder ausgeblendet werden soll

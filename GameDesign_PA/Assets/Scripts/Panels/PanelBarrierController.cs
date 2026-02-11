@@ -58,19 +58,5 @@ public class PanelBarrierController : MonoBehaviour
         if (arrowIndicator != null)
             arrowIndicator.SetActive(true);
     }
-
-    /// Wird aufgerufen, wenn der Spieler das Panel verlässt
-    /*
-    public void OnPlayerLeftPanel()
-    {
-        // Pfeil wieder ausblenden
-        if (arrowIndicator != null)
-            arrowIndicator.SetActive(false);
-
-        // Barrier wieder aktivieren (Rückweg sperren)
-        if (barrierCollider != null)
-            barrierCollider.enabled = true;
-    }
-    */
 }
 

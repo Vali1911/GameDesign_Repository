@@ -3,36 +3,38 @@ using UnityEngine.Events;
 
 public class BulletsInteraction : MonoBehaviour
 {
-    // =========================
-    // Referenzen
-    // =========================
+    // Icon, das die Interaktion startet
+    public GameObject interactionIcon;
 
-    public GameObject interactionIcon;      // Icon_Bullets
-    public Collider2D evidenceBag;           // Evidence Bag Collider
-    public BulletDrag[] bullets;             // Alle Bullet-Objekte
+    // Collider der EvidenceBag f¸r die Drop-Pr¸fung
+    public Collider2D evidenceBag;
+
+    // Alle Bullet-Objekte dieses Minigames
+    public BulletDrag[] bullets;
+
+    // Referenz auf den Player f¸r Freeze-Logik
     public PlayerMovement player;
 
+    // Event f¸r Progression (z.B. PanelBarrierController)
     public UnityEvent OnInteractionCompleted;
 
-    // =========================
-    // Interner Zustand
-    // =========================
-
+    // Gibt an, ob das Panel aktuell geˆffnet ist
     private bool isInteracting = false;
+
+    // Verhindert mehrfaches Abschlieﬂen des Minigames
     private bool interactionCompleted = false;
+
+    // Z‰hlt korrekt eingesammelte Bullets
     private int bulletsCollected = 0;
 
-    // =========================
-    // Start der Interaktion
-    // =========================
-
+    // Startet oder schlieﬂt die Interaktion
     public void StartInteraction()
     {
-        // Wenn bereits abgeschlossen -> nichts mehr tun
+        // Wenn bereits abgeschlossen -> keine erneute Interaktion
         if (interactionCompleted)
             return;
 
-        // Wenn Panel offen ist -> F schlieﬂt es
+        // Wenn Panel bereits offen ist -> schlieﬂen
         if (isInteracting)
         {
             ClosePanel();
@@ -41,10 +43,13 @@ public class BulletsInteraction : MonoBehaviour
 
         // Panel ˆffnen
         isInteracting = true;
+
+        // Player einfrieren
         player.isInteracting = true;
+
         gameObject.SetActive(true);
 
-        // Bullets initialisieren (nur die noch nicht eingesammelten)
+        // Bullets initialisieren (Controller + EvidenceBag ¸bergeben)
         foreach (var bullet in bullets)
         {
             bullet.Init(this, evidenceBag);
@@ -53,45 +58,41 @@ public class BulletsInteraction : MonoBehaviour
 
     void Update()
     {
+        // Eingabe nur w‰hrend aktiver Interaktion erlauben
         if (!isInteracting)
             return;
 
-        // F schlieﬂt das Panel (ohne Erfolg)
+        // Mit F Panel ohne Erfolg schlieﬂen
         if (Input.GetKeyDown(KeyCode.F))
         {
             ClosePanel();
         }
     }
 
-    // =========================
-    // Wird von BulletDrag aufgerufen
-    // =========================
-
+    // Wird von BulletDrag aufgerufen, wenn eine Bullet korrekt abgelegt wurde
     public void RegisterBulletCollected()
     {
         bulletsCollected++;
 
+        // Wenn alle Bullets eingesammelt wurden -> Interaktion abschlieﬂen
         if (bulletsCollected >= bullets.Length)
         {
             CompleteInteraction();
         }
     }
 
-    // =========================
-    // Panel schlieﬂen (ohne Erfolg)
-    // =========================
-
+    // Schlieﬂt das Panel ohne Erfolg
     private void ClosePanel()
     {
         isInteracting = false;
+
+        // Player wieder beweglich machen
         player.isInteracting = false;
+
         gameObject.SetActive(false);
     }
 
-    // =========================
-    // Erfolgreich abgeschlossen
-    // =========================
-
+    // Wird aufgerufen, wenn alle Bullets korrekt eingesammelt wurden
     private void CompleteInteraction()
     {
         interactionCompleted = true;
@@ -100,7 +101,7 @@ public class BulletsInteraction : MonoBehaviour
         // Player freigeben
         player.isInteracting = false;
 
-        // Icon deaktivieren
+        // Icon dauerhaft deaktivieren
         if (interactionIcon != null)
             interactionIcon.SetActive(false);
 
@@ -111,3 +112,4 @@ public class BulletsInteraction : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
+
