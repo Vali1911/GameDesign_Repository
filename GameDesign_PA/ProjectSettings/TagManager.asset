@@ -54,5 +54,8 @@ TagManager:
   - name: Foreground
     uniqueID: 1072261333
     locked: 0
+  - name: Tilemap
+    uniqueID: 1667310839
+    locked: 0
   m_RenderingLayers:
   - Default

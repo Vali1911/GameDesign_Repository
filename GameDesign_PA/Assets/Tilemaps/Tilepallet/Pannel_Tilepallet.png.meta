@@ -1,0 +1,1915 @@
+fileFormatVersion: 2
+guid: 916d56d62efa5574cb84641679368827
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2230915167399503882
+    second: Pannel_Tilepallet_0
+  - first:
+      213: 3793889977979229084
+    second: Pannel_Tilepallet_1
+  - first:
+      213: 1192972670954963216
+    second: Pannel_Tilepallet_2
+  - first:
+      213: 4905559420725928547
+    second: Pannel_Tilepallet_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178bb93aeef4d2b4eabe8c4522f604df
+      internalID: -1209053593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c643b2ea06e4d3446b8c30cec74a2090
+      internalID: -1258126738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e982013a91a2e449a6eed4fc0bd59e4
+      internalID: -438267611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c652b76a0ff17374b8ee1cf46ace1551
+      internalID: -275406707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808db58051ae3694ebc5094dc763daba
+      internalID: 1475811527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aa96fcc7f58ed4db83da6742988572
+      internalID: -749546146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b013fe890356f7640af68e982d2b13d7
+      internalID: -1512676699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc6a525d087ccc429f182dbc337a946
+      internalID: -790732785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01eb3f7f16c15e47a1e676e72b386a8
+      internalID: -1533231832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b00c3edcca130d42856cdd4edaf2551
+      internalID: 1319768208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0c7049fafd45e4e9700ab951a9912a
+      internalID: -382965650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1dd95dddc8e2c43a4dc26132a75e95
+      internalID: -1886507943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d714660bec769b74b9afcda83b5c30d1
+      internalID: 2109153731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd0bf6fae229d944826c9716bbec34e
+      internalID: -48468997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 901
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21b72a788e63fd4681a42a2d694340c
+      internalID: 148555810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06a9f5fae632814ea5a410e03c43169
+      internalID: -629106390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c069bafadd4f474a8c0ea6be2a5f1bc
+      internalID: 869483071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079f3fd29622fc342a839bd16625037a
+      internalID: -1265646051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7109baf67233e394797553cd2c7d0dd5
+      internalID: -1430906291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47e7a3d215f03749a41f0da70170eed
+      internalID: 447147166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41157fca65b754b47a70084c733fec2b
+      internalID: 385687710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dd486f32b2cf14cbbba338aff0fbd6
+      internalID: 169556852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69673e5b1d101d7489e23d9a41592b21
+      internalID: -735044149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187036efbf8d1fc4fae033bf356258cd
+      internalID: -1430788018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc9c7db0e5d3934f8e632a3a25da9b6
+      internalID: 628891782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dc483990d4680498371239149c5392
+      internalID: 1134424223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f82a715c3bcd9438453a70c5a35293
+      internalID: -683590369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aa57a182188a546910d5426d80b087
+      internalID: 791019623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c820915ad588f9747921fdcf4c30b897
+      internalID: 1295420246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 837
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dced0f585a280747bbf57931f6c2ed4
+      internalID: 1399191514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_57
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 703
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ffe5cf42f3a794ba33b5b60e1d6cc9
+      internalID: -1546884629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_58
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 703
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f629b2be0b3194db734478e7a6f7b1
+      internalID: -1504524003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_60
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 719
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ca44ea9a7f54e4ebaf5e18bd10cd76
+      internalID: -1409794489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_61
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 719
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beb75536a446904f99c6f0ceaacde5c
+      internalID: -2006101527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_62
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9c3f6ebee196041883dce70c961794
+      internalID: 2003283949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_63
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cfc57792f6453438a7909257546ad5
+      internalID: 115092331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_64
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26395cca4a4e98b45bed95b16b3f0f2d
+      internalID: 345737441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_65
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826abf0b350784b4b9b9f8db1da3b182
+      internalID: 77904997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_66
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc6a7caf1a1a44aacb4dd5d4a9569d
+      internalID: 1883908288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_67
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ec29a8a5e0a8d49aa475de8319b828
+      internalID: 1615522943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_68
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 717
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6140473b9c589574f89102280b0f7eab
+      internalID: 528493092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_69
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 639
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d8c14a774a2e745bbb8f743ec745a4
+      internalID: 1694484418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_70
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 639
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4aab65ae5df5948a9bb0f320e2718a
+      internalID: 81927929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_72
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 655
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936bac8a47622cf4795c53d4632ded98
+      internalID: 1445129844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_73
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 655
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5af71b99beceb4ba05bec638127c5c
+      internalID: -253111115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_74
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c2297edd1603b44894f64e73ddbade
+      internalID: -1587498578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_75
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38413395424e3594da8f5870b259a09e
+      internalID: -509031511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_76
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4dcf0080d1ccc4faba12776b6a453e
+      internalID: -311442395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_77
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e311aa35f5158458248b3a372bd710
+      internalID: -25348950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_78
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e83ac3d3874be48b819a41b1d133f6
+      internalID: 1213423398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_79
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea82fbf774a8aeb41a1bc0385206709b
+      internalID: 1240726121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_80
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11babd914e96192418b9eb97b9c2b246
+      internalID: -1847209841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_81
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 575
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d5ecc2476ded40bd6cbebd41d4300
+      internalID: 2083866177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_82
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 575
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76663ce433a5644db081ef042f162ec
+      internalID: 1957808330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_84
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 591
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553f3b6f07401ee4c9f6e85df984628d
+      internalID: 883528546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_85
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 591
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31220224645b9494f8c62c9e338eab8a
+      internalID: 1791864313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_86
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 511
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d2e6b0c4043b24d8bd468755e400df
+      internalID: 1846116992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_87
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 511
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450de2f9a0b3d3246bbb538f0ce7bbc0
+      internalID: -176365696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_89
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 527
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a08e3d4abcb4b46b1f3ae50c06e89f
+      internalID: 1771392532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_90
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 527
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ce677bcc015874ba657044825a462e
+      internalID: 661769003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_91
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 447
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87979aab58cc441880b43ac5e9fd35
+      internalID: 1877039574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_92
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 447
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0320102cc5e5d444856f384c841e1f8
+      internalID: 2069055383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_94
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 463
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6659d4f82c23c904285c31f1a86f5089
+      internalID: -149160724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_95
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 463
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0a67eceeaf2104bb1e7c59cfedb6c3
+      internalID: -1574115461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_96
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b95fdbfd5eae940973e832f45a9cd0
+      internalID: -1783889512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_97
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6f370701f39547a7a911888a23247
+      internalID: -899168559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_99
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 399
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad36c4a968e84c84f976f2dd29f6f830
+      internalID: -548496563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_100
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 399
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be3c860e12f82e45bca8a78eb71110c
+      internalID: 452430245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_101
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 319
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14b7056caad21040ba69bd767d356b3
+      internalID: 202372124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_102
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 319
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749ad86631b29ea4fa10685c7686edcc
+      internalID: 808594940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_104
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 335
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e5dbc309c46d64799b83d8aa5c1cab
+      internalID: 174874308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_105
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 335
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea312c223eb3e364b96ba9730cd277e1
+      internalID: -1938082974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_106
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 255
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de42403e4dd48c8498b1d43063e95e3b
+      internalID: 2078726086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_107
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 255
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7ff1b5ca4a1974c9659aed19464d67
+      internalID: -326824623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_109
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 191
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b50c7228691d448501c13afce4ad3
+      internalID: 1482434525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pannel_Tilepallet_110
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 191
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197fa27cb9f74ca4fb83555f64bea279
+      internalID: 1984403643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: adb488d9d9072fc45b271510a4690a06
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Pannel_Tilepallet_0: -2230915167399503882
+      Pannel_Tilepallet_1: 3793889977979229084
+      Pannel_Tilepallet_10: 1145914832
+      Pannel_Tilepallet_100: 452430245
+      Pannel_Tilepallet_101: 202372124
+      Pannel_Tilepallet_102: 808594940
+      Pannel_Tilepallet_103: 867675239
+      Pannel_Tilepallet_104: 174874308
+      Pannel_Tilepallet_105: -1938082974
+      Pannel_Tilepallet_106: 2078726086
+      Pannel_Tilepallet_107: -326824623
+      Pannel_Tilepallet_108: -1036342310
+      Pannel_Tilepallet_109: 1482434525
+      Pannel_Tilepallet_11: 2122717104
+      Pannel_Tilepallet_110: 1984403643
+      Pannel_Tilepallet_111: -381033644
+      Pannel_Tilepallet_12: -1510665066
+      Pannel_Tilepallet_13: 1789352250
+      Pannel_Tilepallet_14: -1910142621
+      Pannel_Tilepallet_15: -1209053593
+      Pannel_Tilepallet_16: -1258126738
+      Pannel_Tilepallet_17: -438267611
+      Pannel_Tilepallet_18: -275406707
+      Pannel_Tilepallet_19: 1475811527
+      Pannel_Tilepallet_2: 1192972670954963216
+      Pannel_Tilepallet_20: -749546146
+      Pannel_Tilepallet_21: -1512676699
+      Pannel_Tilepallet_22: -790732785
+      Pannel_Tilepallet_23: -1533231832
+      Pannel_Tilepallet_24: 1319768208
+      Pannel_Tilepallet_25: -382965650
+      Pannel_Tilepallet_26: -1886507943
+      Pannel_Tilepallet_27: 2109153731
+      Pannel_Tilepallet_28: -48468997
+      Pannel_Tilepallet_29: 148555810
+      Pannel_Tilepallet_3: 4905559420725928547
+      Pannel_Tilepallet_30: -629106390
+      Pannel_Tilepallet_31: 869483071
+      Pannel_Tilepallet_32: -1265646051
+      Pannel_Tilepallet_33: -1430906291
+      Pannel_Tilepallet_34: 447147166
+      Pannel_Tilepallet_35: 385687710
+      Pannel_Tilepallet_36: 169556852
+      Pannel_Tilepallet_37: -735044149
+      Pannel_Tilepallet_38: -1430788018
+      Pannel_Tilepallet_39: 628891782
+      Pannel_Tilepallet_4: 452441205
+      Pannel_Tilepallet_40: 1134424223
+      Pannel_Tilepallet_41: -683590369
+      Pannel_Tilepallet_42: 791019623
+      Pannel_Tilepallet_43: 1295420246
+      Pannel_Tilepallet_44: 1399191514
+      Pannel_Tilepallet_45: -457726268
+      Pannel_Tilepallet_46: 1397636814
+      Pannel_Tilepallet_47: -2094907604
+      Pannel_Tilepallet_48: 1712785668
+      Pannel_Tilepallet_49: -1267865389
+      Pannel_Tilepallet_5: 1949813212
+      Pannel_Tilepallet_50: 1412192288
+      Pannel_Tilepallet_51: 1041742847
+      Pannel_Tilepallet_52: 1814724901
+      Pannel_Tilepallet_53: -1224390233
+      Pannel_Tilepallet_54: 1006194845
+      Pannel_Tilepallet_55: -1137885282
+      Pannel_Tilepallet_56: 1530748683
+      Pannel_Tilepallet_57: -1546884629
+      Pannel_Tilepallet_58: -1504524003
+      Pannel_Tilepallet_59: 613392478
+      Pannel_Tilepallet_6: 55621062
+      Pannel_Tilepallet_60: -1409794489
+      Pannel_Tilepallet_61: -2006101527
+      Pannel_Tilepallet_62: 2003283949
+      Pannel_Tilepallet_63: 115092331
+      Pannel_Tilepallet_64: 345737441
+      Pannel_Tilepallet_65: 77904997
+      Pannel_Tilepallet_66: 1883908288
+      Pannel_Tilepallet_67: 1615522943
+      Pannel_Tilepallet_68: 528493092
+      Pannel_Tilepallet_69: 1694484418
+      Pannel_Tilepallet_7: -1284683866
+      Pannel_Tilepallet_70: 81927929
+      Pannel_Tilepallet_71: -325162986
+      Pannel_Tilepallet_72: 1445129844
+      Pannel_Tilepallet_73: -253111115
+      Pannel_Tilepallet_74: -1587498578
+      Pannel_Tilepallet_75: -509031511
+      Pannel_Tilepallet_76: -311442395
+      Pannel_Tilepallet_77: -25348950
+      Pannel_Tilepallet_78: 1213423398
+      Pannel_Tilepallet_79: 1240726121
+      Pannel_Tilepallet_8: -599034835
+      Pannel_Tilepallet_80: -1847209841
+      Pannel_Tilepallet_81: 2083866177
+      Pannel_Tilepallet_82: 1957808330
+      Pannel_Tilepallet_83: -1109825911
+      Pannel_Tilepallet_84: 883528546
+      Pannel_Tilepallet_85: 1791864313
+      Pannel_Tilepallet_86: 1846116992
+      Pannel_Tilepallet_87: -176365696
+      Pannel_Tilepallet_88: 1983912526
+      Pannel_Tilepallet_89: 1771392532
+      Pannel_Tilepallet_9: 818382788
+      Pannel_Tilepallet_90: 661769003
+      Pannel_Tilepallet_91: 1877039574
+      Pannel_Tilepallet_92: 2069055383
+      Pannel_Tilepallet_93: 1919825190
+      Pannel_Tilepallet_94: -149160724
+      Pannel_Tilepallet_95: -1574115461
+      Pannel_Tilepallet_96: -1783889512
+      Pannel_Tilepallet_97: -899168559
+      Pannel_Tilepallet_98: -1494483244
+      Pannel_Tilepallet_99: -548496563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
