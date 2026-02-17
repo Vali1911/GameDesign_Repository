@@ -8,6 +8,9 @@ public class BulletDrag : MonoBehaviour
     // Collider der EvidenceBag für die Trefferprüfung
     private Collider2D evidenceBag;
 
+    // Collider des Panels zur Bewegungsbegrenzung
+    private Collider2D panelBounds;
+
     // Gibt an, ob diese Bullet bereits eingesammelt wurde
     private bool isCollected = false;
 
@@ -18,16 +21,15 @@ public class BulletDrag : MonoBehaviour
     private bool isDragging = false;
 
     // Initialisierung durch BulletsInteraction beim Start des Minigames
-    public void Init(BulletsInteraction interaction, Collider2D bag)
+    public void Init(BulletsInteraction interaction, Collider2D bag, Collider2D bounds)
     {
         controller = interaction;
         evidenceBag = bag;
+        panelBounds = bounds;
 
-        // Ursprüngliche Position merken
-        startPosition = transform.position;
-
-        // Sicherheits-Reset
-        isCollected = false;
+        // Startposition nur beim ersten Initialisieren merken
+        if (startPosition == Vector3.zero)
+            startPosition = transform.position;
     }
 
     // Wird ausgelöst, wenn die Bullet angeklickt wird
@@ -67,8 +69,21 @@ public class BulletDrag : MonoBehaviour
         if (isDragging)
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = 0; // Z-Achse fixieren (2D)
-            transform.position = mousePos;
+            mousePos.z = 0;
+
+            // Neue Position berechnen
+            Vector3 newPos = mousePos;
+
+            // Begrenzung auf die Panel-Grenzen
+            if (panelBounds != null)
+            {
+                Bounds bounds = panelBounds.bounds;
+
+                newPos.x = Mathf.Clamp(newPos.x, bounds.min.x, bounds.max.x);
+                newPos.y = Mathf.Clamp(newPos.y, bounds.min.y, bounds.max.y);
+            }
+
+            transform.position = newPos;
         }
     }
 
@@ -77,10 +92,11 @@ public class BulletDrag : MonoBehaviour
     {
         isCollected = true;
 
-        // Bullet ausblenden (alternativ: in der Bag fixieren)
+        // Bullet ausblenden
         gameObject.SetActive(false);
 
         // Controller über erfolgreichen Fund informieren
         controller.RegisterBulletCollected();
     }
 }
+

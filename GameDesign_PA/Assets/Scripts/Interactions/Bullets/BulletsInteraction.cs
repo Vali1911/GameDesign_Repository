@@ -9,6 +9,9 @@ public class BulletsInteraction : MonoBehaviour
     // Collider der EvidenceBag für die Drop-Prüfung
     public Collider2D evidenceBag;
 
+    // Collider des ComicPanels zur Bewegungsbegrenzung
+    public Collider2D panelBounds;
+
     // Alle Bullet-Objekte dieses Minigames
     public BulletDrag[] bullets;
 
@@ -49,10 +52,11 @@ public class BulletsInteraction : MonoBehaviour
 
         gameObject.SetActive(true);
 
-        // Bullets initialisieren (Controller + EvidenceBag übergeben)
+        // Bullets initialisieren (Controller + EvidenceBag + PanelBounds übergeben)
         foreach (var bullet in bullets)
         {
-            bullet.Init(this, evidenceBag);
+            if (bullet.gameObject.activeSelf)
+                bullet.Init(this, evidenceBag, panelBounds);
         }
     }
 
@@ -112,4 +116,3 @@ public class BulletsInteraction : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
-
