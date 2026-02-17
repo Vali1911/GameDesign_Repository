@@ -14,6 +14,9 @@ public class FingerPrintsInteraction : MonoBehaviour
     public GameObject tape;
     public GameObject evidenceBag;
 
+    // Collider des ComicPanels zur Begrenzung
+    public Collider2D panelBounds;
+
     // SpriteRenderer des Fingerabdrucks
     public SpriteRenderer fingerprintRenderer;
 
@@ -51,7 +54,6 @@ public class FingerPrintsInteraction : MonoBehaviour
     // Wird vom InteractiveObject aufgerufen
     public void StartInteraction()
     {
-        // Keine erneute Interaktion, wenn bereits aktiv oder abgeschlossen
         if (isInteracting || completed)
             return;
 
@@ -64,18 +66,13 @@ public class FingerPrintsInteraction : MonoBehaviour
 
         // Zustand beim erneuten Öffnen wiederherstellen
         if (tapeUsed)
-        {
             evidenceBag.SetActive(true);
-        }
         else
-        {
             evidenceBag.SetActive(false);
-        }
     }
 
     void Update()
     {
-        // Eingaben nur erlauben, wenn Interaktion aktiv ist
         if (!isInteracting)
             return;
 
@@ -95,20 +92,26 @@ public class FingerPrintsInteraction : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Collider2D hit = Physics2D.OverlapPoint(mousePos);
+            Collider2D[] hits = Physics2D.OverlapPointAll(mousePos);
 
-            if (hit != null)
+            foreach (var hit in hits)
             {
-                draggedObject = hit.gameObject;
-                dragOffset = draggedObject.transform.position - (Vector3)mousePos;
+                if (hit.gameObject == powder || hit.gameObject == tape)
+                {
+                    draggedObject = hit.gameObject;
+                    dragOffset = draggedObject.transform.position - (Vector3)mousePos;
+                    break;
+                }
             }
         }
 
-        // Objekt folgt der Maus
+        // Objekt folgt der Maus (begrenzt auf Panel)
         if (Input.GetMouseButton(0) && draggedObject != null)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            draggedObject.transform.position = mousePos + (Vector2)dragOffset;
+            Vector3 targetPosition = mousePos + (Vector2)dragOffset;
+
+            draggedObject.transform.position = ClampToPanel(targetPosition);
         }
 
         // Ende des Ziehens -> Drop prüfen
@@ -119,6 +122,20 @@ public class FingerPrintsInteraction : MonoBehaviour
         }
     }
 
+    // Begrenzt Objekte innerhalb des ComicPanels
+    private Vector3 ClampToPanel(Vector3 targetPosition)
+    {
+        if (panelBounds == null)
+            return targetPosition;
+
+        Bounds bounds = panelBounds.bounds;
+
+        float clampedX = Mathf.Clamp(targetPosition.x, bounds.min.x, bounds.max.x);
+        float clampedY = Mathf.Clamp(targetPosition.y, bounds.min.y, bounds.max.y);
+
+        return new Vector3(clampedX, clampedY, 0f);
+    }
+
     // Prüft, ob ein Objekt korrekt abgelegt wurde
     private void CheckDrop(GameObject obj)
     {
@@ -127,9 +144,7 @@ public class FingerPrintsInteraction : MonoBehaviour
         {
             powderUsed = true;
 
-            // Fingerprint sichtbar machen
             fingerprintRenderer.sprite = fingerprintRevealed;
-
             powder.SetActive(false);
             return;
         }
@@ -194,7 +209,6 @@ public class FingerPrintsInteraction : MonoBehaviour
         // Player wieder freigeben
         player.isInteracting = false;
 
-        // Icon nur bei Erfolg deaktivieren
         if (success && interactionIcon != null)
             interactionIcon.SetActive(false);
 
