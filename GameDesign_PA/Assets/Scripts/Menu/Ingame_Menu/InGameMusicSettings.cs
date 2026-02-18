@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MusicVolumeController : MonoBehaviour
+public class InGameMusicSettings : MonoBehaviour
 {
     public Slider volumeSlider;
 
-    void Start()
+    void OnEnable()
     {
         AudioSource music = MusicManager.Instance.backgroundMusic;
 
@@ -13,8 +13,14 @@ public class MusicVolumeController : MonoBehaviour
         volumeSlider.onValueChanged.AddListener(SetVolume);
     }
 
+    void OnDisable()
+    {
+        volumeSlider.onValueChanged.RemoveListener(SetVolume);
+    }
+
     public void SetVolume(float volume)
     {
         MusicManager.Instance.backgroundMusic.volume = volume;
     }
 }
+
