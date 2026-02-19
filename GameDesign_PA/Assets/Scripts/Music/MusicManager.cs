@@ -6,6 +6,8 @@ public class MusicManager : MonoBehaviour
 
     public AudioSource backgroundMusic;
 
+    private const string VolumeKey = "MusicVolume";
+
     public static MusicManager Instance
     {
         get { return instance; }
@@ -17,11 +19,19 @@ public class MusicManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
+            float savedVolume = PlayerPrefs.GetFloat(VolumeKey, 0.5f);
+            backgroundMusic.volume = savedVolume;
         }
         else
         {
             Destroy(gameObject);
         }
     }
-}
 
+    public void SetVolume(float volume)
+    {
+        backgroundMusic.volume = volume;
+        PlayerPrefs.SetFloat(VolumeKey, volume);
+    }
+}
