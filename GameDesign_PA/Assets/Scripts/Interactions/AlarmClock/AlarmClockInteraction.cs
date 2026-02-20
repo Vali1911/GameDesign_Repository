@@ -12,6 +12,9 @@ public class AlarmClockInteraction : MonoBehaviour
     // Referenz auf den Player für Freeze-Logik
     public PlayerMovement player;
 
+    // NEU: AudioSource für den Alarm
+    public AudioSource alarmAudio;
+
     // Event, das bei erfolgreichem Abschluss ausgelöst wird (Progression)
     public UnityEvent OnInteractionCompleted;
 
@@ -28,6 +31,10 @@ public class AlarmClockInteraction : MonoBehaviour
 
         // Panel sichtbar machen
         AlarmClockPanel.SetActive(true);
+
+        // NEU: Alarm starten
+        if (alarmAudio != null)
+            alarmAudio.Play();
     }
 
     // Beendet die Interaktion (success entscheidet über Progression)
@@ -40,6 +47,10 @@ public class AlarmClockInteraction : MonoBehaviour
 
         // Panel ausblenden
         AlarmClockPanel.SetActive(false);
+
+        // NEU: Alarm stoppen
+        if (alarmAudio != null && alarmAudio.isPlaying)
+            alarmAudio.Stop();
 
         // Nur bei erfolgreichem Klick Progression melden
         if (success)
