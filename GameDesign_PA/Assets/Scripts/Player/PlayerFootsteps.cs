@@ -1,10 +1,9 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerFootsteps : MonoBehaviour
 {
-    public AudioSource audioSource;
-
-    [Header("Pitch Variation")]
+    [Header("Footstep Settings")]
+    public AudioClip footstepClip;
     public float pitchVariation = 0.05f;
 
     private PlayerMovement playerMovement;
@@ -18,6 +17,16 @@ public class PlayerFootsteps : MonoBehaviour
 
     void Update()
     {
+        if (playerMovement == null || rb == null || AudioManager.Instance == null)
+            return;
+
+        // 🔴 Keine Footsteps wenn Menü offen
+        if (InGameMenu.IsGamePaused)
+        {
+            StopFootsteps();
+            return;
+        }
+
         if (playerMovement.isInteracting)
         {
             StopFootsteps();
@@ -41,18 +50,21 @@ public class PlayerFootsteps : MonoBehaviour
 
     void StartFootsteps()
     {
-        if (!audioSource.isPlaying)
-        {
-            audioSource.pitch = 1f + Random.Range(-pitchVariation, pitchVariation);
-            audioSource.Play();
-        }
+        if (AudioManager.Instance.sfxSource.clip == footstepClip &&
+            AudioManager.Instance.sfxSource.isPlaying)
+            return;
+
+        AudioManager.Instance.sfxSource.pitch =
+            1f + Random.Range(-pitchVariation, pitchVariation);
+
+        AudioManager.Instance.PlayLoopingSFX(footstepClip);
     }
 
     void StopFootsteps()
     {
-        if (audioSource.isPlaying)
+        if (AudioManager.Instance.sfxSource.clip == footstepClip)
         {
-            audioSource.Stop();
+            AudioManager.Instance.StopLoopingSFX();
         }
     }
 }

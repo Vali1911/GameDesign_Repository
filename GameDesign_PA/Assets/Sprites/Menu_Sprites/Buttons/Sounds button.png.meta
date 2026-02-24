@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f1abd9b11d20e0342ac4befec2fa361e
+guid: 3d3222f82e014a44c8d9b79717f7e37a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 147159259431284069
-    second: Start button_0
+      213: -3760531885530096209
+    second: Sounds button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start button_0
+      name: Sounds button_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 691
-        height: 382
+        x: 41
+        y: 29
+        width: 915
+        height: 354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56dafc71190da0200800000000000000
-      internalID: 147159259431284069
+      spriteID: fadd27c9c28efcbc0800000000000000
+      internalID: -3760531885530096209
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Start button_0: 147159259431284069
+      Sounds button_0: -3760531885530096209
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,58 +1,52 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.Events;
 
 public class AlarmClockInteraction : MonoBehaviour
 {
-    // Panel, das während der Interaktion eingeblendet wird
+    // Panel, das wÃ¤hrend der Interaktion eingeblendet wird
     public GameObject AlarmClockPanel;
 
     // Klickbares Objekt innerhalb des Panels (Wecker-Knopf)
     public GameObject Wecker;
 
-    // Referenz auf den Player für Freeze-Logik
+    // Referenz auf den Player fÃ¼r Freeze-Logik
     public PlayerMovement player;
 
-    // NEU: AudioSource für den Alarm
-    public AudioSource alarmAudio;
+    [Header("Audio")]
+    public AudioClip alarmClip;
 
-    // Event, das bei erfolgreichem Abschluss ausgelöst wird (Progression)
+    // Event, das bei erfolgreichem Abschluss ausgelÃ¶st wird (Progression)
     public UnityEvent OnInteractionCompleted;
 
-    // Gibt an, ob die Interaktion aktuell läuft
     private bool isInteracting = false;
 
-    // Startet die Interaktion (wird vom InteractiveObject aufgerufen)
     public void StartInteraction()
     {
         isInteracting = true;
 
-        // Player einfrieren
         player.isInteracting = true;
-
-        // Panel sichtbar machen
         AlarmClockPanel.SetActive(true);
 
-        // NEU: Alarm starten
-        if (alarmAudio != null)
-            alarmAudio.Play();
+        // ðŸ”Š Alarm starten (Loop)
+        if (AudioManager.Instance != null && alarmClip != null)
+        {
+            AudioManager.Instance.PlayLoopingSFX(alarmClip);
+        }
     }
 
-    // Beendet die Interaktion (success entscheidet über Progression)
     private void EndInteraction(bool success)
     {
         isInteracting = false;
 
-        // Player wieder freigeben
         player.isInteracting = false;
-
-        // Panel ausblenden
         AlarmClockPanel.SetActive(false);
 
-        // NEU: Alarm stoppen
-        if (alarmAudio != null && alarmAudio.isPlaying)
-            alarmAudio.Stop();
+        // ðŸ”‡ Alarm stoppen
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.StopLoopingSFX();
+        }
 
-        // Nur bei erfolgreichem Klick Progression melden
         if (success)
         {
             OnInteractionCompleted?.Invoke();
@@ -61,24 +55,20 @@ public class AlarmClockInteraction : MonoBehaviour
 
     void Update()
     {
-        // Eingaben nur erlauben, wenn Interaktion aktiv ist
         if (!isInteracting)
             return;
 
-        // Mit F kann die Interaktion abgebrochen werden
         if (Input.GetKeyDown(KeyCode.F))
         {
             EndInteraction(false);
             return;
         }
 
-        // Linksklick überprüft, ob der Wecker getroffen wurde
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D hit = Physics2D.OverlapPoint(mousePos);
 
-            // Prüfen, ob der Klick auf dem Wecker gelandet ist
             if (hit != null && hit.gameObject == Wecker)
             {
                 EndInteraction(true);

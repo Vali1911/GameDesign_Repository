@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 33189e0f4ae6ad54eb7674f84ec5feb6
+guid: d7d2c0eed8d169041a7f7c3fbb85a40e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5143774560829939779
-    second: "Backround men\xFC_0"
+      213: -3280453761572052816
+    second: Go_Back_Button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Backround men\xFC_0"
+      name: Go_Back_Button_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 3840
-        height: 2160
+        width: 935
+        height: 383
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 340a5fec5bb526740800000000000000
-      internalID: 5143774560829939779
+      spriteID: 0b067673fac7972d0800000000000000
+      internalID: -3280453761572052816
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Backround men\xFC_0": 5143774560829939779
+      Go_Back_Button_0: -3280453761572052816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

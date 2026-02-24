@@ -7,14 +7,15 @@ public class MusicVolumeController : MonoBehaviour
 
     void Start()
     {
-        volumeSlider.value = MusicManager.Instance.backgroundMusic.volume;
+        if (AudioManager.Instance == null) return;
+
+        volumeSlider.value = AudioManager.Instance.musicVolume;
         volumeSlider.onValueChanged.AddListener(SetVolume);
     }
 
     public void SetVolume(float volume)
     {
-        MusicManager.Instance.SetVolume(volume);
+        AudioManager.Instance.SetMusicVolume(volume);
     }
 }
-
 

@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class InGameMenu : MonoBehaviour
@@ -8,6 +8,9 @@ public class InGameMenu : MonoBehaviour
 
     [Header("Start Scene Name")]
     public string startSceneName = "StartScene";
+
+    // Globale Info, ob Spiel pausiert ist
+    public static bool IsGamePaused = false;
 
     void Start()
     {
@@ -30,6 +33,11 @@ public class InGameMenu : MonoBehaviour
         menuUI.SetActive(true);
         Time.timeScale = 0f;
         isMenuOpen = true;
+
+        IsGamePaused = true;
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PauseAllSFX();
     }
 
     public void CloseMenu()
@@ -37,12 +45,23 @@ public class InGameMenu : MonoBehaviour
         menuUI.SetActive(false);
         Time.timeScale = 1f;
         isMenuOpen = false;
+
+        IsGamePaused = false;
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.ResumeAllSFX();
     }
 
-    // NEU: Zurück zur StartScene
     public void ReturnToStart()
     {
-        Time.timeScale = 1f; // Sicherheit: Zeit wieder normal setzen
+        Time.timeScale = 1f;
+
+        // Verhindert Ghost-Footsteps
+        IsGamePaused = true;
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.StopAllSFX();
+
         SceneManager.LoadScene(startSceneName);
     }
 }

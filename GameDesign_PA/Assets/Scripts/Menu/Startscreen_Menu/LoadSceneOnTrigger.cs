@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LoadSceneOnTrigger : MonoBehaviour
@@ -22,6 +22,12 @@ public class LoadSceneOnTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player") && !string.IsNullOrEmpty(sceneName))
         {
+            // 🔴 Footsteps & andere SFX sofort blockieren
+            InGameMenu.IsGamePaused = true;
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.StopAllSFX();
+
             SceneManager.LoadScene(sceneName);
         }
     }

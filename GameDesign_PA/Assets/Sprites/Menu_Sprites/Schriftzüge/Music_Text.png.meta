@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 93f41660bbacde94f8f5960d861cf398
+guid: 070955e187bcb9f44969ea87230776a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5682281752145333396
-    second: Interact_0
+      213: -7740061026236143772
+    second: Music_Text_0
   - first:
-      213: 6828575121188932713
-    second: Interact_1
+      213: 626086787550185628
+    second: Music_Text_1
   - first:
-      213: 1375905558975414970
-    second: Interact_2
+      213: 4893769829231082757
+    second: Music_Text_2
   - first:
-      213: 4270301505219629152
-    second: Interact_3
+      213: -5061425604373941004
+    second: Music_Text_3
   - first:
-      213: 3820446977167197645
-    second: Interact_4
+      213: 76804648288099081
+    second: Music_Text_4
   - first:
-      213: 9196988478204768949
-    second: Interact_5
-  - first:
-      213: -7812899497276693533
-    second: Interact_6
-  - first:
-      213: -4415627666958122151
-    second: Interact_7
+      213: -4501796899980853453
+    second: Music_Text_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,17 +111,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interact_0
+      name: Music_Text_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
-        width: 93
-        height: 149
+        x: 75
+        y: 161
+        width: 158
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49c8e46c5258bde40800000000000000
-      internalID: 5682281752145333396
+      spriteID: 46769575187c59490800000000000000
+      internalID: -7740061026236143772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interact_1
+      name: Music_Text_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 51
-        width: 88
-        height: 113
+        x: 456
+        y: 289
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96c4984b4e8f3ce50800000000000000
-      internalID: 6828575121188932713
+      spriteID: c988e7abd9e40b800800000000000000
+      internalID: 626086787550185628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interact_2
+      name: Music_Text_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 51
-        width: 83
-        height: 143
+        x: 248
+        y: 161
+        width: 86
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab20737e0d2381310800000000000000
-      internalID: 1375905558975414970
+      spriteID: 50db7db3bb92ae340800000000000000
+      internalID: 4893769829231082757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interact_3
+      name: Music_Text_3
       rect:
         serializedVersion: 2
-        x: 299
-        y: 53
-        width: 98
-        height: 107
+        x: 343
+        y: 162
+        width: 87
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0609e6e0898234b30800000000000000
-      internalID: 4270301505219629152
+      spriteID: 4f4793aba3432c9b0800000000000000
+      internalID: -5061425604373941004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interact_4
+      name: Music_Text_4
       rect:
         serializedVersion: 2
-        x: 412
-        y: 51
-        width: 77
-        height: 110
+        x: 453
+        y: 168
+        width: 23
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,40 +231,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc5044db844f40530800000000000000
-      internalID: 3820446977167197645
+      spriteID: 90b9f42bb6dd01100800000000000000
+      internalID: 76804648288099081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interact_5
+      name: Music_Text_5
       rect:
         serializedVersion: 2
-        x: 497
-        y: 51
-        width: 95
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b271ce0b4442af70800000000000000
-      internalID: 9196988478204768949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_6
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 51
+        x: 501
+        y: 162
         width: 85
         height: 111
       alignment: 0
@@ -268,30 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e3aefe3d41039390800000000000000
-      internalID: -7812899497276693533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_7
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 51
-        width: 83
-        height: 143
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 953039a280a88b2c0800000000000000
-      internalID: -4415627666958122151
+      spriteID: 33fbfad22976681c0800000000000000
+      internalID: -4501796899980853453
       vertices: []
       indices: 
       edges: []
@@ -310,14 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interact_0: 5682281752145333396
-      Interact_1: 6828575121188932713
-      Interact_2: 1375905558975414970
-      Interact_3: 4270301505219629152
-      Interact_4: 3820446977167197645
-      Interact_5: 9196988478204768949
-      Interact_6: -7812899497276693533
-      Interact_7: -4415627666958122151
+      Music_Text_0: -7740061026236143772
+      Music_Text_1: 626086787550185628
+      Music_Text_2: 4893769829231082757
+      Music_Text_3: -5061425604373941004
+      Music_Text_4: 76804648288099081
+      Music_Text_5: -4501796899980853453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

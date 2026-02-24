@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Video;
 using System.Collections;
 
@@ -13,8 +13,8 @@ public class VideoTrigger : MonoBehaviour
 
     public float freezeAfterFadeTime = 5f;
 
-    // NEU: Auto Sound
-    public AudioSource cutsceneAudio;
+    [Header("Audio")]
+    public AudioClip cutsceneClip;
 
     private bool hasPlayed = false;
 
@@ -75,11 +75,10 @@ public class VideoTrigger : MonoBehaviour
             videoPlayer.Play();
         }
 
-        // NEU: AUTOSOUND STARTEN
-        if (cutsceneAudio != null)
+        // 🔊 AUTOSOUND STARTEN
+        if (AudioManager.Instance != null && cutsceneClip != null)
         {
-            cutsceneAudio.time = 0;
-            cutsceneAudio.Play();
+            AudioManager.Instance.PlayLoopingSFX(cutsceneClip);
         }
 
         // FADE IN
@@ -89,9 +88,11 @@ public class VideoTrigger : MonoBehaviour
         // CUTSCENE-ZEIT
         yield return new WaitForSeconds(freezeAfterFadeTime);
 
-        // NEU: AUTOSOUND STOPPEN
-        if (cutsceneAudio != null && cutsceneAudio.isPlaying)
-            cutsceneAudio.Stop();
+        // 🔇 AUTOSOUND STOPPEN
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.StopLoopingSFX();
+        }
 
         // KAMERA ZURUECK ZUM PLAYER
         if (camFollow != null)
