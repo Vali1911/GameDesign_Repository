@@ -22,12 +22,23 @@ public class AlarmClockInteraction : MonoBehaviour
 
     public void StartInteraction()
     {
+        if (isInteracting)
+            return;
+
         isInteracting = true;
 
+        // Player einfrieren
         player.isInteracting = true;
+
         AlarmClockPanel.SetActive(true);
 
-        // 🔊 Alarm starten (Loop)
+        // 🔴 WICHTIG: Erst alle Loop-SFX stoppen (z.B. Footsteps)
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.StopLoopingSFX();
+        }
+
+        // 🔊 Dann Alarm starten
         if (AudioManager.Instance != null && alarmClip != null)
         {
             AudioManager.Instance.PlayLoopingSFX(alarmClip);
@@ -36,9 +47,14 @@ public class AlarmClockInteraction : MonoBehaviour
 
     private void EndInteraction(bool success)
     {
+        if (!isInteracting)
+            return;
+
         isInteracting = false;
 
+        // Player wieder freigeben
         player.isInteracting = false;
+
         AlarmClockPanel.SetActive(false);
 
         // 🔇 Alarm stoppen

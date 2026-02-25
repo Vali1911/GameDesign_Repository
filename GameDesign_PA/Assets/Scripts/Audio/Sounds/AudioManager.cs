@@ -1,4 +1,5 @@
-using UnityEngine;
+ï»¿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -6,7 +7,8 @@ public class AudioManager : MonoBehaviour
 
     [Header("Audio Sources")]
     public AudioSource musicSource;
-    public AudioSource sfxSource;
+    public AudioSource sfxLoopSource;
+    public AudioSource sfxOneShotSource;
 
     [Header("Volume Settings")]
     [Range(0f, 1f)] public float musicVolume = 1f;
@@ -31,9 +33,17 @@ public class AudioManager : MonoBehaviour
         ApplyVolumes();
     }
 
-    // ------------------------
-    // VOLUME SETTERS
-    // ------------------------
+    void ApplyVolumes()
+    {
+        if (musicSource != null)
+            musicSource.volume = musicVolume;
+
+        if (sfxLoopSource != null)
+            sfxLoopSource.volume = sfxVolume;
+
+        if (sfxOneShotSource != null)
+            sfxOneShotSource.volume = sfxVolume;
+    }
 
     public void SetMusicVolume(float volume)
     {
@@ -47,94 +57,60 @@ public class AudioManager : MonoBehaviour
         ApplyVolumes();
     }
 
-    void ApplyVolumes()
-    {
-        if (musicSource != null)
-            musicSource.volume = musicVolume;
-
-        if (sfxSource != null)
-            sfxSource.volume = sfxVolume;
-    }
-
-    // ------------------------
-    // MUSIC
-    // ------------------------
-
-    public void PlayMusic(AudioClip clip, bool loop = true)
-    {
-        if (musicSource == null || clip == null) return;
-
-        musicSource.clip = clip;
-        musicSource.loop = loop;
-        musicSource.volume = musicVolume;
-        musicSource.Play();
-    }
-
-    public void StopMusic()
-    {
-        if (musicSource != null)
-            musicSource.Stop();
-    }
-
-    // ------------------------
-    // ONE SHOT SFX
-    // ------------------------
-
-    public void PlaySFX(AudioClip clip)
-    {
-        if (clip == null || sfxSource == null) return;
-
-        sfxSource.PlayOneShot(clip, sfxVolume);
-    }
-
-    // ------------------------
-    // LOOPING SFX
-    // ------------------------
+    // ---------------- LOOPING ----------------
 
     public void PlayLoopingSFX(AudioClip clip)
     {
-        if (clip == null || sfxSource == null) return;
+        if (clip == null || sfxLoopSource == null) return;
 
-        sfxSource.Stop();
-        sfxSource.clip = clip;
-        sfxSource.loop = true;
-        sfxSource.volume = sfxVolume;
-        sfxSource.Play();
+        sfxLoopSource.Stop();
+        sfxLoopSource.clip = clip;
+        sfxLoopSource.loop = true;
+        sfxLoopSource.Play();
     }
 
     public void StopLoopingSFX()
     {
-        if (sfxSource == null) return;
+        if (sfxLoopSource == null) return;
 
-        sfxSource.loop = false;
-        sfxSource.Stop();
+        sfxLoopSource.Stop();
+        sfxLoopSource.clip = null;
     }
 
-    // ------------------------
-    // PAUSE / RESUME
-    // ------------------------
+    // ---------------- ONE SHOT ----------------
+
+    public void PlaySFX(AudioClip clip)
+    {
+        if (clip == null || sfxOneShotSource == null) return;
+
+        sfxOneShotSource.PlayOneShot(clip);
+    }
+
+    // ---------------- STOP ALL ----------------
+
+    public void StopAllSFX()
+    {
+        if (sfxLoopSource != null)
+        {
+            sfxLoopSource.Stop();
+            sfxLoopSource.clip = null;
+        }
+
+        if (sfxOneShotSource != null)
+        {
+            sfxOneShotSource.Stop();
+        }
+    }
 
     public void PauseAllSFX()
     {
-        if (sfxSource != null && sfxSource.isPlaying)
-            sfxSource.Pause();
+        if (sfxLoopSource != null && sfxLoopSource.isPlaying)
+            sfxLoopSource.Pause();
     }
 
     public void ResumeAllSFX()
     {
-        if (sfxSource != null && sfxSource.clip != null)
-            sfxSource.UnPause();
-    }
-
-    // ------------------------
-    // STOP (für Szenenwechsel)
-    // ------------------------
-
-    public void StopAllSFX()
-    {
-        if (sfxSource == null) return;
-
-        sfxSource.Stop();
-        sfxSource.clip = null;
+        if (sfxLoopSource != null && sfxLoopSource.clip != null)
+            sfxLoopSource.UnPause();
     }
 }

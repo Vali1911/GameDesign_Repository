@@ -9,12 +9,16 @@ public class InGameMenu : MonoBehaviour
     [Header("Start Scene Name")]
     public string startSceneName = "StartScene";
 
-    // Globale Info, ob Spiel pausiert ist
     public static bool IsGamePaused = false;
 
     void Start()
     {
-        menuUI.SetActive(false);
+        // 🔥 WICHTIG: Reset bei Szenenstart
+        Time.timeScale = 1f;
+        IsGamePaused = false;
+
+        if (menuUI != null)
+            menuUI.SetActive(false);
     }
 
     void Update()
@@ -30,10 +34,11 @@ public class InGameMenu : MonoBehaviour
 
     public void OpenMenu()
     {
-        menuUI.SetActive(true);
+        if (menuUI != null)
+            menuUI.SetActive(true);
+
         Time.timeScale = 0f;
         isMenuOpen = true;
-
         IsGamePaused = true;
 
         if (AudioManager.Instance != null)
@@ -42,10 +47,11 @@ public class InGameMenu : MonoBehaviour
 
     public void CloseMenu()
     {
-        menuUI.SetActive(false);
+        if (menuUI != null)
+            menuUI.SetActive(false);
+
         Time.timeScale = 1f;
         isMenuOpen = false;
-
         IsGamePaused = false;
 
         if (AudioManager.Instance != null)
@@ -56,11 +62,12 @@ public class InGameMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
 
-        // Verhindert Ghost-Footsteps
-        IsGamePaused = true;
-
+        // Stoppt alle laufenden Sounds
         if (AudioManager.Instance != null)
             AudioManager.Instance.StopAllSFX();
+
+        // ❗ NICHT mehr auf true setzen
+        IsGamePaused = false;
 
         SceneManager.LoadScene(startSceneName);
     }
