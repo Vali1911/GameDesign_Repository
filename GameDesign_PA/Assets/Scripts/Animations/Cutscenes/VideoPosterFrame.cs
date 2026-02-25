@@ -5,30 +5,26 @@ public class VideoPosterFrame : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
 
-    void Awake()
+    void Start()
     {
-        // Falls nichts im Inspector gesetzt ist
         if (videoPlayer == null)
             videoPlayer = GetComponent<VideoPlayer>();
 
         videoPlayer.playOnAwake = false;
         videoPlayer.waitForFirstFrame = true;
 
-        // Video vorbereiten
+        StartCoroutine(PrepareAndShow());
+    }
+
+    private System.Collections.IEnumerator PrepareAndShow()
+    {
         videoPlayer.Prepare();
-        videoPlayer.prepareCompleted += OnPrepared;
-    }
 
-    private void OnPrepared(VideoPlayer vp)
-    {
-        // Erstes Frame anzeigen
-        vp.Play();
-        vp.Pause();
-    }
+        while (!videoPlayer.isPrepared)
+            yield return null;
 
-    void OnDestroy()
-    {
-        if (videoPlayer != null)
-            videoPlayer.prepareCompleted -= OnPrepared;
+        videoPlayer.Play();
+        yield return null; // 1 Frame warten
+        videoPlayer.Pause();
     }
 }

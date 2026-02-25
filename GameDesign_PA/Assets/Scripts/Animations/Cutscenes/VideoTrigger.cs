@@ -57,14 +57,13 @@ public class VideoTrigger : MonoBehaviour
         if (spawnPoint != null)
             playerCollider.transform.position = spawnPoint.position;
 
-        // ANDERE VIDEOS STOPPEN
-        if (videoPlayer != null)
+        // ANDERE VIDEOS NUR PAUSIEREN (NICHT STOPPEN!)
+        VideoPlayer[] allPlayers = FindObjectsOfType<VideoPlayer>();
+        foreach (VideoPlayer vp in allPlayers)
         {
-            VideoPlayer[] allPlayers = FindObjectsOfType<VideoPlayer>();
-            for (int i = 0; i < allPlayers.Length; i++)
+            if (vp != null && vp != videoPlayer)
             {
-                if (allPlayers[i] != null && allPlayers[i] != videoPlayer)
-                    allPlayers[i].Stop();
+                vp.Pause();
             }
         }
 
@@ -75,7 +74,7 @@ public class VideoTrigger : MonoBehaviour
             videoPlayer.Play();
         }
 
-        // 🔊 AUTOSOUND STARTEN
+        // CUTSCENE SOUND STARTEN
         if (AudioManager.Instance != null && cutsceneClip != null)
         {
             AudioManager.Instance.PlayLoopingSFX(cutsceneClip);
@@ -88,13 +87,21 @@ public class VideoTrigger : MonoBehaviour
         // CUTSCENE-ZEIT
         yield return new WaitForSeconds(freezeAfterFadeTime);
 
-        // 🔇 AUTOSOUND STOPPEN
+        // SOUND STOPPEN
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.StopLoopingSFX();
         }
 
-        // KAMERA ZURUECK ZUM PLAYER
+        // VIDEO ZURÜCK AUF POSTERFRAME
+        if (videoPlayer != null)
+        {
+            videoPlayer.Stop();
+            videoPlayer.Prepare();
+            videoPlayer.prepareCompleted += ResetToPosterFrame;
+        }
+
+        // KAMERA ZURÜCK ZUM PLAYER
         if (camFollow != null)
             camFollow.SetTarget(playerCollider.transform);
 
@@ -106,5 +113,13 @@ public class VideoTrigger : MonoBehaviour
         Collider2D col = GetComponent<Collider2D>();
         if (col != null)
             col.enabled = false;
+    }
+
+    private void ResetToPosterFrame(VideoPlayer vp)
+    {
+        vp.prepareCompleted -= ResetToPosterFrame;
+
+        vp.Play();
+        vp.Pause(); // Erstes Frame anzeigen
     }
 }
